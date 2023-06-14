@@ -1,5 +1,7 @@
 # Maneasy
 
+<a href="https://imgur.com/hRFJdmH"><img src="https://i.imgur.com/hRFJdmH.jpg" title="source: imgur.com" /></a>
+
 Maneasy, é um sistema de gerenciamento e alocação de profissionais de TI, permitindo cadastrar e consultar os recursos alocados em projetos, demandas e atendimento de chamados dentro da área da Tecnologia.
 
 Acesse o manual da marca, clicando [aqui.](https://www.canva.com/design/DAFglhtjNB0/a193T7KIrkSvyGkda8jfqw/edit?utm_content=DAFglhtjNB0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
