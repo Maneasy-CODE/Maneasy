@@ -89,7 +89,7 @@ footer {
     cursor: pointer;
 }
 
-footer>a{
+footer>a {
     font-family: "VerdanaRegular";
     font-size: 17px;
     color: var(--branco);
@@ -102,8 +102,6 @@ footer>a{
 
 footer:hover {
     background-color: #075185;
-
-
 }
 
 footer iconify-icon {
