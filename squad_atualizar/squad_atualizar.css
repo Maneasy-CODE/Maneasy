@@ -1,0 +1,58 @@
+.section_titulo {
+    max-width: 80%;
+    display: flex;
+    margin: 50px auto;
+    background-color: aquamarine;
+}
+
+label{
+    margin: 0 0 10px 0;
+}
+
+.section_pesquisa p{
+    padding: 30px 10px 10px 10px;
+}
+
+.section_pesquisa_btn{
+    font-size: 45px;
+    padding: 28px 0 0 8px;
+    color: var(--preto);
+}
+
+.section_pesquisa_resultado{
+    color: var(--preto);
+    font-family: "VerdanaRegular";
+    max-width: 70%;
+    background-color: rgb(131, 127, 255);
+    display: flex;
+    margin: 50px auto;
+}
+
+.section_pesquisa{
+    display: flex;
+    align-items: center;
+
+}
+
+.icon {
+    position: absolute;
+    padding: 7.5px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    min-width: 40px;
+    font-size: 25px;
+}
+
+.input-icons {
+    width: 30%;
+    margin-top: 10px;
+}
+
+.input-field {
+    background: transparent;
+    border-radius: 100px;
+    width: 375px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
