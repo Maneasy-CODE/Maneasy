@@ -26,7 +26,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root{ /* para chamar colocar var*/
     --amarelo: #ffd100;
     --azule: #2274ac;
     --azulc: #0094c4;
