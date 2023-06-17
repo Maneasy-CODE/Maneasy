@@ -30,7 +30,7 @@ main{
 }
 
 .section_esqueceu_senha h1{
-    margin: 50px;
+    margin: 50px 0;
     font-size: 100px;
     font-family: "SpartanBold";
     color: var(--azule);
@@ -42,15 +42,18 @@ main{
     color: var(--amarelo);
 }
 
-
+.section_input label{
+    color: var(--azule);
+    font-family: "VerdanaRegular";
+}
 
 .icon {
     position: absolute;
     padding: 7.5px 20px 7.5px 10px;
     align-items: center;
-    color: #474545;
+    color: var(--azule);
     min-width: 40px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .input-icons {
@@ -58,9 +61,11 @@ main{
 }
 
 .input-field {
+    margin-bottom: 40px;
+    height: 40px;
     background: transparent;
     border-radius: 100px;
-    width: 350px;
+    width: 750px;
     padding: 10px 10px 10px 40px;
-    border: 1px solid #474545;
+    border: 1px solid var(--azule);
 }
