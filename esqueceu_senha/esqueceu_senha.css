@@ -1,0 +1,66 @@
+main{
+
+    min-height: 100vh;
+    display: flex;
+    background-image: linear-gradient(#ffffffe1, #ffffffe1), url("../assets/images/background_maneasy.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+
+}
+
+.section_btn_voltar_logo{
+    width: 40%;
+}
+
+.section_btn_voltar_logo iconify-icon{
+    font-size: 40px;
+    color: var(--azule);
+    margin: 50px 0 0 50px;
+}
+
+.section_btn_voltar_logo img{
+    width: 100%;
+    max-width: 700px;
+}
+
+.section_esqueceu_senha{
+    width: 60%;
+}
+
+.section_esqueceu_senha h1{
+    margin: 50px;
+    font-size: 100px;
+    font-family: "SpartanBold";
+    color: var(--azule);
+}
+
+.section_esqueceu_senha span{
+    font-size: 100px;
+    font-family: "SpartanBold";
+    color: var(--amarelo);
+}
+
+
+
+.icon {
+    position: absolute;
+    padding: 7.5px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    min-width: 40px;
+    font-size: 25px;
+}
+
+.input-icons {
+    width: 30%;
+}
+
+.input-field {
+    background: transparent;
+    border-radius: 100px;
+    width: 350px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
