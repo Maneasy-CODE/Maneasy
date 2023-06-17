@@ -5,30 +5,30 @@
     background-color: aquamarine;
 }
 
-label{
+label {
     margin: 0 0 10px 0;
 }
 
-.section_pesquisa p{
+.section_pesquisa p {
     padding: 30px 10px 10px 10px;
 }
 
-.section_pesquisa_btn{
+.section_pesquisa_btn {
     font-size: 45px;
     padding: 28px 0 0 8px;
     color: var(--preto);
 }
 
-.section_pesquisa_resultado{
+.section_pesquisa_resultado {
+    background-color: blueviolet;
     color: var(--preto);
     font-family: "VerdanaRegular";
-    max-width: 70%;
-    background-color: rgb(131, 127, 255);
+    max-width: 80%;
     display: flex;
-    margin: 50px auto;
+    margin: 0 auto;
 }
 
-.section_pesquisa{
+.section_pesquisa {
     display: flex;
     align-items: center;
 
@@ -36,11 +36,11 @@ label{
 
 .icon {
     position: absolute;
-    padding: 7.5px 20px 7.5px 10px;
+    padding: 11px 20px 7.5px 10px;
     align-items: center;
     color: #474545;
     min-width: 40px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .input-icons {
@@ -51,8 +51,8 @@ label{
 .input-field {
     background: transparent;
     border-radius: 100px;
-    width: 375px;
+    height: 40px;
+    width: 434px;
     padding: 10px 10px 10px 40px;
     border: 1px solid #474545;
 }
-
