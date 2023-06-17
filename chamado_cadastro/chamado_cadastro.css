@@ -1,0 +1,95 @@
+section .container-grid{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px 0 0 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+section .conteudo{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+section .cadastrar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+section .cadastrar h1{
+font-family: "SpartanBold";
+font-size: 44px;
+line-height:44px ;
+color: var(--azule);
+}
+section .botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ .button_consultar{
+    border-left:1px solid var(--preto);
+    border-bottom: 1px solid var(--preto);
+    text-decoration: none;
+    font-family: "VerdanaBold";
+    font-size: 20px;
+    
+}
+ .button_cadastrar{
+    border-right:1px solid var(--preto);
+    border-bottom: 1px solid var(--preto);
+    text-decoration: none;
+    font-family: "VerdanaBold";
+    font-size: 20px;
+}
+.icon {
+    position: absolute;
+    padding: 7.5px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    min-width: 40px;
+    font-size: 25px;
+}
+
+.input-icons {
+    width: 30%;
+}
+
+.input-field {
+    background: transparent;
+    border-radius: 100px;
+    width: 350px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+.section_formulario1 {
+    display: flex;
+    align-items: center;
+    margin: 0 ;
+
+}
+
+.input_solicitante{
+    margin:0 30px ;
+}
+
+
+.section_formulario2{
+    display: flex;
+    align-items: center;
+    margin: 0 ;
+}
+
+.input_nome{
+    margin:0 30px ;
+}
+
+
+          
