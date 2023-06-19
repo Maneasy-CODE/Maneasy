@@ -2,9 +2,16 @@
     max-width: 80%;
     display: flex;
     margin: 50px auto;
-    background-color: aquamarine;
+    font-family: "SpartanBold" ;
+    color: var(--azule);
+    font-size: 30px;
+
 }
 
+.section_titulo img{
+    padding-right: 20px;
+
+}
 label {
     margin: 0 0 10px 0;
 }
@@ -20,11 +27,11 @@ label {
 }
 
 .section_pesquisa_resultado {
-    background-color: blueviolet;
     color: var(--preto);
     font-family: "VerdanaRegular";
     max-width: 80%;
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
 }
 
@@ -52,7 +59,32 @@ label {
     background: transparent;
     border-radius: 100px;
     height: 40px;
-    width: 434px;
+    width: 447px;
     padding: 10px 10px 10px 40px;
     border: 1px solid #474545;
+}
+
+.section_resultado h2{
+    font-size: 20px;
+    font-family: "VerdanaBold";
+    padding: 50px 0 20px 0;
+}
+
+.section_resultado_dados{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(39, 39, 39, 0.162);
+
+}
+
+.section_resultado_dados div{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.section_resultado_dados>a{
+    margin: 0;
 }
