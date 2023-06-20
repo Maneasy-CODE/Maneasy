@@ -1,9 +1,17 @@
 /*SECTION PROJETO*/
 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
 .titulo_projeto{
+    width: 100%;
     display: flex;
     align-items: center;
-    margin: 55px 100px;
+    margin: 50px auto;
+    /*background-color: rebeccapurple;*/
 }
 
 h1{
@@ -30,20 +38,69 @@ h1{
     font-size: 23px;
 }
 
-.campo_nome_do_projeto{
-    display: flex;
-    flex-direction: column;
-    margin: 20px 178px;
+
+
+/*CAMPO PROJETO*/
+.input_projeto{
+    margin: 40px 0;
     font-family: "VerdanaRegular";
-    font-size: 16px;
     color: var(--preto);
 }
 
-.campo_nome_do_projeto .input_projeto{
-    box-sizing: border-box;
-    border: 2px solid #474545;
+.icon {
+    position: absolute;
+    padding: 7.5px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    min-width: 40px;
+    font-size: 25px;
+}
+
+.input-icons {
+    width: 100%;
+}
+
+.input-field {
+    background: transparent;
     border-radius: 100px;
-    width: 1064px;
-    height: 37px;
-    margin: 15px -3px;
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+/*section calendario*/
+.input_criacao{
+    width: 30%;
+    margin: 5px 0;
+    font-family: "VerdanaRegular";
+    color: var(--preto);
+}
+
+.section_calendario{
+    display: flex;
+   /* background-color: rgb(186, 150, 219);*/
+    justify-content: space-between;
+}
+
+.input-calendario{
+    background: transparent;
+    border-radius: 100px;
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+.input_objetivo{
+    width: 30%;
+    margin: 5px 0;
+    font-family: "VerdanaRegular";
+    color: var(--preto);
+}
+
+.input_objetivo_projeto{
+    background: transparent;
+    border-radius: 100px;
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
 }

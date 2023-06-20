@@ -37,22 +37,62 @@
 
 
         <section>
-            <div class="titulo_projeto">
-                <img src="../assets/images/bolinha_azul.svg" width="50" height="27" alt="circulo azul">
-                <h1>Projetos</h1>
-            </div>
-            <nav class="cadastrar_e_consultar">
-                <a class="btn_cadastrar" href="btn_cadastrar">Cadastrar</a>
-                <a href="btn_consultar">Consultar</a>
-            </nav>
-            <div class="campo_nome_do_projeto">
-                <label for="nome_do_projeto">Nome do Projeto</label>
-                <div class="input_projeto">
-                    <iconify-icon icon="la:project-diagram" width="20" heigth="10"></iconify-icon>
-                    <input id="nome_do_projeto" type="text">
+            <div class="container">
+
+                <div class="titulo_projeto">
+                    <img src="../assets/images/bolinha_azul.svg" width="50" height="27" alt="circulo azul">
+                    <h1>Projetos</h1>
+                </div>
+                <nav class="cadastrar_e_consultar">
+                    <a class="btn_cadastrar" href="btn_cadastrar">Cadastrar</a>
+                    <a href="btn_consultar">Consultar</a>
+                </nav>
+
+                <div class="campo_nome_do_projeto">
+                    <div class="input_projeto">
+                        <label for="nome_do_projeto">Nome do Projeto</label>
+                        <div class="input-icons">
+                            <iconify-icon class="icon" icon="la:project-diagram"></iconify-icon>
+                            <input name="nome_do_projeto" class="input-field" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section_calendario">
+                    <div class="input_criacao">
+                        <label for="nome_criacao">Criação</label>
+                        <div class="input-icons">
+                            <iconify-icon class="icon" icon="zondicons:calendar"></iconify-icon>
+                            <input name="nome_criacao" class="input-calendario" type="text">
+                        </div>
+                    </div>
+                    <div class="input_criacao">
+                        <label for="nome_inicio">Ínicio</label>
+                        <div class="input-icons">
+                            <iconify-icon class="icon" icon="zondicons:calendar"></iconify-icon>
+                            <input name="nome_criacao" class="input-calendario" type="text">
+                        </div>
+                    </div>
+                    <div class="input_criacao">
+                        <label for="nome_termino">Término</label>
+                        <div class="input-icons">
+                            <iconify-icon class="icon" icon="zondicons:calendar"></iconify-icon>
+                            <input name="nome_criacao" class="input-calendario" type="text">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="campo_objetivo_do_projeto">
+                    <div class="input_objetivo">
+                        <label for="nome_do_projeto">Objetivo do Projeto</label>
+                        <div class="input-icons">
+                            <iconify-icon class="icon" icon="la:project-diagram"></iconify-icon>
+                            <input name="objetivo_projeto" class="input-field" type="text">
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </section>
     </main>
 
