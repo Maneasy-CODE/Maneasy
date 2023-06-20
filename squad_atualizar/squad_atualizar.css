@@ -2,13 +2,13 @@
     max-width: 80%;
     display: flex;
     margin: 50px auto;
-    font-family: "SpartanBold" ;
+    font-family: "SpartanBold";
     color: var(--azule);
     font-size: 30px;
 
 }
 
-.section_titulo img{
+.section_titulo img {
     padding-right: 20px;
 }
 
@@ -38,6 +38,8 @@ label {
 .section_pesquisa {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background-color: rgb(185, 124, 241);
 
 }
 
@@ -46,31 +48,39 @@ label {
     padding: 11px 20px 7.5px 10px;
     align-items: center;
     color: #474545;
-    min-width: 40px;
     font-size: 20px;
 }
 
+.input_chapa{
+    width: 50%;
+}
+
 .input-icons {
-    width: 30%;
     margin-top: 10px;
 }
 
+input .input-field {
+    width: 100%;
+    max-width: 447px;
+}
+
 .input-field {
+    width: 100%;
+    max-width: 447px;
     background: transparent;
     border-radius: 100px;
     height: 40px;
-    width: 447px;
     padding: 10px 10px 10px 40px;
     border: 1px solid #474545;
 }
 
-.section_resultado h2{
+.section_resultado h2 {
     font-size: 20px;
     font-family: "VerdanaBold";
     padding: 50px 0 20px 0;
 }
 
-.section_resultado_dados{
+.section_resultado_dados {
     display: flex;
     height: 50px;
     align-items: center;
@@ -79,12 +89,12 @@ label {
 
 }
 
-.section_resultado_dados div{
+.section_resultado_dados div {
     display: flex;
     justify-content: space-between;
     width: 700px;
 }
 
-.section_resultado_dados>a{
+.section_resultado_dados>a {
     margin: 0;
 }
