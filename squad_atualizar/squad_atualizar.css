@@ -20,10 +20,10 @@ label {
     padding: 30px 10px 10px 10px;
 }
 
-.section_pesquisa_btn {
-    font-size: 45px;
-    padding: 28px 0 0 8px;
-    color: var(--preto);
+.section_pesquisa_btn img {
+    width: 34px;
+    padding-top: 30px;
+    margin-left: 10px;
 }
 
 .section_pesquisa_resultado {
@@ -39,8 +39,6 @@ label {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(185, 124, 241);
-
 }
 
 .icon {
@@ -51,7 +49,7 @@ label {
     font-size: 20px;
 }
 
-.input_chapa{
+.section_pesquisa_resultado_input {
     width: 50%;
 }
 
@@ -95,6 +93,25 @@ input .input-field {
     width: 700px;
 }
 
-.section_resultado_dados>a {
+.section_resultado_dados img {
     margin: 0;
+    width: 34px;
+}
+
+.section_resultado_dados_id {
+    width: 20%;
+}
+
+.section_resultado_dados_tipo {
+    width: 20%;
+}
+
+.section_resultado_dados_nome {
+    width: 60%;
+}
+
+.section_resultado_dados_btn {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
 }
