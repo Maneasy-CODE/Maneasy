@@ -1,0 +1,163 @@
+section{
+    font-family: "VerdanaRegular";
+
+}
+
+.section_titulo {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    font-family: "SpartanBold";
+    color: var(--azule);
+    font-size: 30px;
+
+}
+
+.section_titulo img {
+    padding-right: 20px;
+}
+
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.section_cadastro_squad {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.section_nome_projeto{
+    width: 100%;
+}
+
+/*INPUT E BOTÃO LUPA*/
+
+.icon {
+    position: absolute;
+    padding: 11px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    font-size: 20px;
+}
+
+.input-icons {
+    margin-top: 10px;
+}
+
+input .input-field {
+    width: 100%;
+    max-width: 447px;
+}
+
+.input-field {
+    width: 100%;
+    max-width: 447px;
+    background: transparent;
+    border-radius: 100px;
+    height: 40px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+.section_cadastro_squad_btn img {
+    width: 34px;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+/*INPUT PESQUISA*/
+
+
+.section_pesquisa_resultado_input {
+    width: 50%;
+}
+
+.input-icons {
+    margin-top: 10px;
+}
+
+input .input-field {
+    width: 100%;
+    max-width: 447px;
+}
+
+.input-field {
+    width: 100%;
+    max-width: 447px;
+    background: transparent;
+    border-radius: 100px;
+    height: 40px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+.section_resultado_dados_btn {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section_pesquisa p {
+    padding: 30px 10px 10px 10px;
+}
+
+.section_pesquisa_btn img {
+    width: 34px;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.section_pesquisa_resultado {
+    color: var(--preto);
+    display: flex;
+    flex-direction: column;
+}
+
+.section_pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Resultado pesquisa*/
+
+.section_resultado_dados {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(39, 39, 39, 0.162);
+
+}
+
+.section_resultado_dados div {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.section_resultado_dados img {
+    margin: 0;
+    width: 34px;
+}
+
+.section_resultado_dados_id {
+    width: 20%;
+}
+
+.section_resultado_dados_nome{
+    width: 80%;
+}
+
+.section_resultado_dados_btn {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
