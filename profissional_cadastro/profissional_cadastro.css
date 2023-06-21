@@ -1,7 +1,7 @@
 /* ICONES */
 .icon {
     position: absolute;
-    padding: 7.5px 20px 7.5px 10px;
+    padding: 6px 20px 7.5px 10px;
     align-items: center;
     color: #474545;
     min-width: 40px;
@@ -10,13 +10,13 @@
 
 .input-icons {
     width: 30%;
+    margin-top: 10px;
 }
 
 .input-field {
     background: transparent;
     border-radius: 100px;
-    width: 350px;
-    padding: 10px 10px 10px 40px;
+    padding: 10px 10px 10px 40px; 
     border: 1px solid #474545;
 }
 
@@ -32,7 +32,6 @@
     width: 800px;
     height: 100%;       
     margin: 0 auto;
-    background-color: red;  
 }
 .titulo_profissional {
     display: flex;
@@ -45,20 +44,50 @@
 h1{
     font-size: 40px;
 }       
+label{
+    font-family: "VerdanaRegular";
+    color: var(--preto);
+}
 .nav_cad_cons{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 100px;
+    margin: 38px 0;
 }
 .nav_cad_cons a{
     text-decoration: none;
     color: var(--preto);
-    font-size: 25px;
+    font-size: 20px;
 }
 .btn_cad{
     font-family: "VerdanaBold";
 }
 .btn_cons{
     font-family: "VerdanaRegular";
+}
+.posicao_conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input_chapa{
+    width: 260px;
+}
+.input_nome{
+    width: 510px;
+}
+
+.input_status{  
+    width: 260px;
+}
+.input_email{  
+    width: 510px;
+}
+.input_ini_ferias{
+    width: 385px;
+}
+.input_fim_ferias{
+    width: 385px;
 }
