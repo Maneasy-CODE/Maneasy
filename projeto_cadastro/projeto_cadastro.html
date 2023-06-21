@@ -87,8 +87,28 @@
                     <div class="input_objetivo">
                         <label for="nome_do_projeto">Objetivo do Projeto</label>
                         <div class="input-icons">
-                            <iconify-icon class="icon" icon="la:project-diagram"></iconify-icon>
-                            <input name="objetivo_projeto" class="input-field" type="text">
+                            <textarea name="objetivo_projeto" id=""></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section_orcamento_e_status">
+                    <div class="input_orcamento">
+                        <label for="nome_inicio">Orçamento do Projeto</label>
+                        <div class="input-icons">
+                            <iconify-icon class="icon" icon="fa:dollar"></iconify-icon>
+                            <input name="nome_criacao" class="input-calendario" type="text">
+                        </div>
+                    </div>
+                    <div class="input_status">
+                        <label for="nome_termino">Status do Projeto</label>
+                        <div class="input-icons">
+                            <iconify-icon class="icon" icon="el:ok-sign"></iconify-icon>
+                            <select name="status" id="">
+                                <option value="">A inicar</option>
+                                <option value="">Em adamento</option>
+                                <option value="">Finalizado</option>
+                            </select>
                         </div>
                     </div>
                 </div>
