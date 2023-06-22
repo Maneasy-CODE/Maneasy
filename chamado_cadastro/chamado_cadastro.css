@@ -1,3 +1,8 @@
+
+
+/* CLASSE Generica */
+
+
 section .container-grid{
     width: 100%;
     height: 100%;
@@ -10,7 +15,9 @@ section .conteudo{
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    background-color: aqua;
+    font-family: Verdana ;
+    color: var(--preto);
+    /*background-color: aqua;*/
 }
 
 section .cadastrar{
@@ -31,22 +38,27 @@ section .botao {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-bottom: 20px;
+    
 }
 
  .button_consultar{
     border-left:1px solid var(--preto);
     border-bottom: 1px solid var(--preto);
     text-decoration: none;
-    font-family: "VerdanaBold";
+    font-family: "VerdanaRegular";
     font-size: 20px;
+    color: var(--preto);
+
     
 }
  .button_cadastrar{
-    border-right:1px solid var(--preto);
-    border-bottom: 1px solid var(--preto);
+    /* border-right:1px solid var(--preto);
+    border-bottom: 1px solid var(--preto); */
     text-decoration: none;
     font-family: "VerdanaBold";
     font-size: 20px;
+    color: var(--preto);
 }
 .icon {
     position: absolute;
@@ -61,35 +73,136 @@ section .botao {
     width: 30%;
 }
 
-.input-field {
+.input-field-medium {
     background: transparent;
     border-radius: 100px;
     width: 350px;
     padding: 10px 10px 10px 40px;
     border: 1px solid #474545;
+    width: 232px;
+    height: 40px;
 }
 
+.input-field-big{
+    background: transparent;
+    border-radius: 100px;
+    width: 350px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+    width: 600px;
+    height: 40px;
+}
+
+.input-field-little {
+
+   
+    background: transparent;
+    border-radius: 100px;
+    width: 350px;
+    border: 1px solid #474545;
+    width: 215px;
+    height: 40px;
+}
 .section_formulario1 {
+    width: 100%;
+    justify-content: space-between;
     display: flex;
-    align-items: center;
-    margin: 0 ;
+    margin-bottom: 20px;
 
-}
-
-.input_solicitante{
-    margin:0 30px ;
 }
 
 
 .section_formulario2{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.section_formulario3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.descricao-chamado{
+    width: 100%;
+    height: 145px;
+    background: none;
+    border-radius: 20px ;
+    resize: none;
+
+}
+
+.section_formulario4{
+    margin-bottom: 20px;
+}
+
+section .section_formulario5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.input_status{
+    background: transparent;
+    border-radius: 100px;
+    border: 1px solid #474545;
+    width: 215px;
+    height: 40px;
+    /*padding-left: 16px;*/
     display: flex;
     align-items: center;
-    margin: 0 ;
+   
 }
 
-.input_nome{
-    margin:0 30px ;
+.input_status_chamado select{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: none;
+
 }
 
+select{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #474545;
+    background: transparent;
+    border-radius: 40px;
 
-          
+}
+
+.selecao{
+    border: none;
+
+
+}
+
+input[type="file"]{
+    display: none   ;
+}
+
+.icones img{
+   width: 30px;
+   height: 30px;
+}
+
+.icones>div{
+    width: 50px;
+    display: flex;
+    gap: 10px;
+
+    margin-right: 20px;
+}
+
+.icones{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+

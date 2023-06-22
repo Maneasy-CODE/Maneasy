@@ -56,7 +56,7 @@
                             <label for="setor">Setor</label>
                             <div class="input-icons">
                                 <iconify-icon class="icon" icon="ic:outline-badge"></iconify-icon>
-                                <input name="setor" class="input-field" type="text">
+                                <input name="setor" class="input-field-medium" type="text">
                             </div>
                         </div>
 
@@ -64,7 +64,7 @@
                             <label for="Consultar">Nome Solicitante</label>
                             <div class="input-icons">
                                 <iconify-icon class="icon" icon="mingcute:user-4-fill"></iconify-icon>
-                                <input name="nome-solicitante" class="input-field" type="text">
+                                <input name="nome-solicitante" class="input-field-big" type="text">
                             </div>
                         </div>
 
@@ -76,7 +76,7 @@
                             <label for="chapa-profissional">Chapa Profissional</label>
                             <div class="input-icons">
                                 <iconify-icon class="icon" icon="ic:outline-badge"></iconify-icon>
-                                <input name="chapa-profissional" class="input-field" type="text">
+                                <input name="chapa-profissional" class="input-field-medium" type="text">
                             </div>
                         </div>
 
@@ -84,20 +84,85 @@
                             <label for="nome-profissional">Nome Profissional</label>
                             <div class="input-icons">
                                 <iconify-icon class="icon" icon="mingcute:user-4-fill"></iconify-icon>
-                                <input name="nome-profissional" class="input-field" type="text">
+                                <input name="nome-profissional" class="input-field-big" type="text">
                             </div>
                         </div>
 
                     </div>
-                    <label for="text-area">Descriçao Chamado</label>
-                    <textarea name="descricao-chamado" id="descricao-chamado" rows="5"></textarea>
+
+                    <div class="section_formulario3">
+
+                        <div class="input_criacao">
+                            <label for="date">Criação</label>
+                            <div class="input-icons">
+
+                                <input type="date" class="input-field-little" type="text">
+                            </div>
+                        </div>
+
+                        <div class="input_inicio">
+
+                            <label for="inicio">Inicio</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="bx:calendar" style="font-size: 26px;"></iconify-icon>
+                                <input name="inicio" class="input-field-little" type="text">
+                            </div>
+                        </div>
+
+                        <div class="input_termino">
+
+                            <label for="termino">Término</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="bx:calendar" style="font-size: 26px;"></iconify-icon>
+                                <input name="termino" class="input-field-little" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section_formulario4">
+
+                        <label for="text-area">Descriçao Chamado</label>
+                        <textarea class="descricao-chamado" name="descricao-chamado" id="descricao-chamado"
+                            rows="5"></textarea>
+                    </div>
+
+
+                    <div class="section_formulario5">
+
+                        <div class="input_anexo">
+                            <label for="">Anexo</label>
+                            <div class="input-icons input-field-little">
+                                <label for="file"><iconify-icon class="icon" icon="bi:cloud-arrow-up"
+                                        style="font-size: 26px;"></iconify-icon></label>
+                                        <input type="file" id="file" name="file">
+
+                            </div>
+                        </div>
+
+                        <div class="input_status_chamado">
+                            <label for="file">Status Chamado</label>
+                            <div class="input_status">
+                                <iconify-icon icon="el:ok-circle"></iconify-icon>
+                                <select class="selecao" name="status" id="status">
+
+                                    <option value="aberto">Aberto</option>
+                                    <option value="em andamento">Em andamento</option>
+                                    <option value="finalizado">Finalizado</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="icones">
+                        <img src="../assets/images/btn_squad.svg" alt="squad">
+                        <div>
+                            <img src="../assets/images/btn_confirmar.svg" alt="">
+                            <img src="../assets/images/btn_cancelar.svg" alt="">
+                        </div>
+
+                    </div>
                 </div>
             </div>
-
-            
-            </div>
-
-
         </section>
     </main>
 </body>
