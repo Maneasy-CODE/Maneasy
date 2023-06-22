@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/imports_fonts.css">
     <link rel="stylesheet" href="../css/menu.css">
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <script src="../JavaScript/JavaScript.js"></script>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
             <nav class="nav_btn_menu">
                 <a href="#"><iconify-icon icon="ph:chart-bar-bold"></iconify-icon>Dashboard</a>
                 <a href="#"><iconify-icon icon="ion:people-circle"></iconify-icon>Profissionais</a>
-                <a href="#"><iconify-icon icon="la:project-diagram"></iconify-icon>Projetos</a>
+                <a id="input_projeto" href="#"><iconify-icon icon="la:project-diagram"></iconify-icon>Projetos</a>
                 <a href="#"><iconify-icon icon="mdi:clipboard-edit-outline"></iconify-icon>Demandas</a>
                 <a href="#"><iconify-icon icon="mdi:bell-alert-outline"></iconify-icon>Chamados</a>
                 <a href="#"><iconify-icon icon="mdi:people-group"></iconify-icon>Squad</a>
@@ -87,7 +88,7 @@
                     <div class="input_objetivo">
                         <label for="nome_do_projeto">Objetivo do Projeto</label>
                         <div class="input-icons">
-                            <textarea name="objetivo_projeto" id=""></textarea>
+                            <textarea class="campo_objetivo" name="objetivo_projeto" id="" rows="8"></textarea>
                         </div>
                     </div>
                 </div>
@@ -100,9 +101,9 @@
                             <input name="nome_criacao" class="input-calendario" type="text">
                         </div>
                     </div>
-                    <div class="input_status">
+                    <div class="select_status">
                         <label for="nome_termino">Status do Projeto</label>
-                        <div class="input-icons">
+                        <div class="select-icons">
                             <iconify-icon class="icon" icon="el:ok-sign"></iconify-icon>
                             <select name="status" id="">
                                 <option value="">A inicar</option>
@@ -112,6 +113,22 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="link_button">
+                    <a href="">
+                        <img src="../assets/images/btn_squad.svg" alt="squad">
+                    </a>
+
+                    <div class="btn_links">
+                        <button >
+                            <img src="../assets/images/btn_confirmar.svg" alt="confirmar">
+                        </button>
+                        <button>
+                            <img src="../assets/images/btn_cancelar.svg" alt="cancelar">
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
