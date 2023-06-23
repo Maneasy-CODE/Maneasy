@@ -113,10 +113,23 @@ label {
     margin: 10px 0 20px;
     border-radius: 25px;
 }
+
 .input_hora_ext {
-    width: 385px;
+    width: 260px;
 }
 
 .input_jorn_tra {
-    width: 385px;
+    width: 260px;
+}
+
+.btn_conf_e_canc {
+    border: none;
+    background: none;
+    margin-left: 15px;
+    padding-top: 27px;
+}
+.btn_conf rect:hover {
+    fill: #2C9123;
+    width:48px;
+    height:48px;
 }
