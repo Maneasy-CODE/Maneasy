@@ -1,7 +1,17 @@
-section{
+section {
     font-family: "VerdanaRegular";
-
+ 
 }
+
+
+.scroll{
+    overflow-y: scroll;
+    scroll-behavior: smooth;  
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 
 .section_titulo {
     display: flex;
@@ -17,12 +27,13 @@ section{
     padding-right: 20px;
 }
 
-form{
+form {
     width: 80%;
     margin: 0 auto;
+
 }
 
-.section_nome_projeto{
+.section_nome_projeto {
     width: 100%;
 }
 
@@ -35,14 +46,14 @@ form{
 /*INPUT PESQUISA*/
 
 .section_pesquisa_resultado_input {
-    width: 50%;
+    width: 100%;
 }
 
 .icon {
     position: absolute;
     padding: 11px 20px 7.5px 10px;
     align-items: center;
-    color: #474545;
+    color: var(--preto);
     font-size: 20px;
 }
 
@@ -50,14 +61,8 @@ form{
     margin-top: 10px;
 }
 
-input .input-field {
-    width: 100%;
-    max-width: 447px;
-}
-
 .input-field {
     width: 100%;
-    max-width: 447px;
     background: transparent;
     border-radius: 100px;
     height: 40px;
@@ -87,6 +92,7 @@ input .input-field {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 30px 0 30px 0;
 }
 
 /* Resultado pesquisa*/
@@ -115,7 +121,7 @@ input .input-field {
     width: 20%;
 }
 
-.section_resultado_dados_nome{
+.section_resultado_dados_nome {
     width: 80%;
 }
 
@@ -127,10 +133,89 @@ input .input-field {
 
 
 
-_________________________________________________________________________
+_________________________________________________________________________ 
 
-.form_date{
+.form_date_criacao {
+    width: 30%;
+}
+
+.form_date {
+    width: 100%;
     display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+input[type="date"] {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "VerdanaRegular";
+    width: 100%;
+}
+
+::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    display: none;
 }
 
 
+---------------------------------------- .section_objetivo_projeto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section_objetivo_projeto p {
+    padding: 30px 10px 10px 10px;
+}
+
+.section_objetivo_projeto_label_textarea {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #474545;
+}
+
+
+
+.form_criacao_inicio_termino {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+}
+
+.form_criacao_inicio_termino .icon{
+    font-size: 16px;
+
+}
+    
+
+.form_date_criacao_inicio_termino {
+    width: 100%;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+.section_resultado h2 {
+    font-size: 16px;
+    font-family: "VerdanaBold";
+    color: var(--preto);
+}
+
+.form_id{
+    width: 50%;
+    display: flex;
+}
+
+.form_id .section_pesquisa_resultado_input{
+    width: 70%;
+}
