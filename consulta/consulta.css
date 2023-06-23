@@ -1,8 +1,6 @@
 label {
     font-family: "VerdanaRegular";
-
 }
-
 
 .section_titulo {
     display: flex;
@@ -10,12 +8,10 @@ label {
     font-family: "SpartanBold";
     color: var(--azule);
     font-size: 30px;
-
 }
 
 .section_titulo img {
     padding-right: 20px;
-
 }
 
 .icon {
@@ -57,7 +53,6 @@ section .conteudo {
     font-family: "VerdanaRegular";
 }
 
-
 .input-icons {
     width: 30%;
 }
@@ -75,18 +70,11 @@ section .conteudo {
     color: #474545;
     font-size: 45px;
     padding: 35px 8px 0 8px;
-
 }
 
 .section_table {
     width: 90%;
-
 }
-
-/* table {
- 
- } */
-
 
 h2 {
     font-size: 20px;
@@ -102,41 +90,30 @@ table {
     border-spacing: 0;
 }
 
-.print_btn {
-    background-color: #50B747;
-    color: white;
-    font-size: 20px;
-    padding: 1px 0;
-    border-radius: 100px;
-    /* margin: 0 10px;*/
-}
-
 td {
     border-bottom: #27272729 solid 1px;
     height: 50px;
     border-collapse: collapse;
 }
 
-
 .section_table tr {
     /* background-color: burlywood;*/
     width: 1000px;
-
 }
 
 .c1 {
     /*  background-color: darkgoldenrod;*/
-    padding-right: 80px;
+    padding-right: 90px;
 }
 
 .c2 {
     /* background-color: cornflowerblue;*/
-    padding-right: 200px;
+    padding-right: 180px;
 }
 
 .c3 {
     /* background-color:aquamarine;*/
-    padding: 0 20px 0 50px;
+    padding: 10px 40px 10px 20px;
 }
 
 .c4 {
@@ -144,13 +121,18 @@ td {
     padding: 4px 10px 1px 10px;
 }
 
-select {
+select{
     border-radius: 100px;
+    padding: 4px;
+    background: transparent;
 }
 
 .tabela-teste {
     width: 100%;
-    height: 380px;
+    height: 311px;
     overflow-y: scroll;
     scroll-behavior: smooth;
+}
+.fundo_amarelo {
+    background-color: var(--amarelo);
 }
