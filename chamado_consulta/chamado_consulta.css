@@ -1,0 +1,28 @@
+label {
+    font-family: "VerdanaRegular";
+}
+
+.section_titulo {
+    display: flex;
+    margin: 50px auto;
+    font-family: "SpartanBold";
+    color: var(--azule);
+    font-size: 30px;
+}
+
+.section_titulo img {
+    padding-right: 20px;
+}
+
+.icon {
+    position: absolute;
+    padding: 7.5px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    min-width: 40px;
+    font-size: 25px;
+}
+
+.input-icons {
+    margin-top: 10px;
+}
