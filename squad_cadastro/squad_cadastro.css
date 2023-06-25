@@ -205,9 +205,9 @@ textarea {
 }
 
 .section_resultado h2 {
-    font-size: 16px;
+    font-size: 20px;
     font-family: "VerdanaBold";
-    color: var(--preto);
+    padding: 50px 0 20px 0;
 }
 
 .form_id{
