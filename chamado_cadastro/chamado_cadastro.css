@@ -9,14 +9,16 @@ section .container-grid{
     border-radius: 40px 0 0 40px;
     padding-top: 70px;
     padding-bottom: 70px;
+    overflow-y: scroll;
+    scroll-behavior:  smooth;
 }
 
 section .conteudo{
     width: 80%;
-    height: 100%;
     margin: 0 auto;
     font-family: Verdana ;
     color: var(--preto);
+    line-height: 28px;
     /*background-color: aqua;*/
 }
 
@@ -43,6 +45,10 @@ section .botao {
 }
 
  .button_consultar{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
     border-left:1px solid var(--preto);
     border-bottom: 1px solid var(--preto);
     text-decoration: none;
@@ -53,8 +59,10 @@ section .botao {
     
 }
  .button_cadastrar{
-    /* border-right:1px solid var(--preto);
-    border-bottom: 1px solid var(--preto); */
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
     text-decoration: none;
     font-family: "VerdanaBold";
     font-size: 20px;
@@ -71,6 +79,8 @@ section .botao {
 
 .input-icons {
     width: 30%;
+    position: relative;
+    
 }
 
 .input-field-medium {
@@ -96,6 +106,16 @@ section .botao {
 .input-field-little {
 
    
+    background: transparent;
+    border-radius: 100px;
+    width: 350px;
+    border: 1px solid #474545;
+    width: 215px;
+    height: 40px;
+    text-align: center;
+}
+
+.input-anexo{
     background: transparent;
     border-radius: 100px;
     width: 350px;
@@ -168,19 +188,17 @@ section .section_formulario5 {
 
 }
 
-select{
+section .selecao{
+    border: none;
     width: 100%;
-    height: 35px;
-    border: 1px solid #474545;
+    height: 100%;
     background: transparent;
     border-radius: 40px;
-
+    text-align: center;
 }
 
-.selecao{
+section .input_status_chamado>select>option{
     border: none;
-
-
 }
 
 input[type="file"]{

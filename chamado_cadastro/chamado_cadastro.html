@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/menu.css">
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
     <link rel="icon" type="image/png" href="https://diretoaoponto-tech.com.br/icon-target.png" />
+    <script src="../JavaScript/JavaScript.js" defer></script>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
                 <a href="#"><iconify-icon icon="ion:people-circle"></iconify-icon>Profissionais</a>
                 <a href="#"><iconify-icon icon="la:project-diagram"></iconify-icon>Projetos</a>
                 <a href="#"><iconify-icon icon="mdi:clipboard-edit-outline"></iconify-icon>Demandas</a>
-                <a href="#"><iconify-icon icon="mdi:bell-alert-outline"></iconify-icon>Chamados</a>
+                <a id="input_chamado" href="#"><iconify-icon icon="mdi:bell-alert-outline"></iconify-icon>Chamados</a>
                 <a href="#"><iconify-icon icon="mdi:people-group"></iconify-icon>Squad</a>
                 <a href="#"><iconify-icon icon="mdi:file-report-outline"></iconify-icon>Consultas</a>
             </nav>
@@ -95,6 +96,7 @@
                         <div class="input_criacao">
                             <label for="date">Criação</label>
                             <div class="input-icons">
+                                <iconify-icon class="icon" icon="bx:calendar" style="font-size: 26px;"></iconify-icon>
 
                                 <input type="date" class="input-field-little" type="text">
                             </div>
@@ -102,19 +104,19 @@
 
                         <div class="input_inicio">
 
-                            <label for="inicio">Inicio</label>
+                            <label for= "date">Inicio</label>
                             <div class="input-icons">
                                 <iconify-icon class="icon" icon="bx:calendar" style="font-size: 26px;"></iconify-icon>
-                                <input name="inicio" class="input-field-little" type="text">
+                                <input type="date" class="input-field-little" type="text">
                             </div>
                         </div>
 
                         <div class="input_termino">
 
-                            <label for="termino">Término</label>
+                            <label for="date">Término</label>
                             <div class="input-icons">
                                 <iconify-icon class="icon" icon="bx:calendar" style="font-size: 26px;"></iconify-icon>
-                                <input name="termino" class="input-field-little" type="text">
+                                <input type="date" class="input-field-little" type="text">
                             </div>
                         </div>
                     </div>
@@ -131,7 +133,7 @@
 
                         <div class="input_anexo">
                             <label for="">Anexo</label>
-                            <div class="input-icons input-field-little">
+                            <div class="input-icons input-anexo">
                                 <label for="file"><iconify-icon class="icon" icon="bi:cloud-arrow-up"
                                         style="font-size: 26px;"></iconify-icon></label>
                                         <input type="file" id="file" name="file">
@@ -141,10 +143,11 @@
 
                         <div class="input_status_chamado">
                             <label for="file">Status Chamado</label>
-                            <div class="input_status">
-                                <iconify-icon icon="el:ok-circle"></iconify-icon>
+                            <div class="input-icons input_status">
+                            <iconify-icon class="icon" icon="el:ok-circle"></iconify-icon>
+                                
                                 <select class="selecao" name="status" id="status">
-
+                                    
                                     <option value="aberto">Aberto</option>
                                     <option value="em andamento">Em andamento</option>
                                     <option value="finalizado">Finalizado</option>
