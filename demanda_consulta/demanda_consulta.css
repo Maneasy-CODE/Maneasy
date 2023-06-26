@@ -1,0 +1,234 @@
+/* CLASSES GENERICAS */
+.icon {
+    position: absolute;
+    padding: 7.5px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    min-width: 40px;
+    font-size: 25px;
+}
+
+.input-icons {
+    width: 30%;
+    position: relative;
+}
+
+.input-field {
+    background: transparent;
+    border-radius: 100px;
+    width: 350px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+/* TITULO */
+section .container-grid{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px 0 0 40px;
+    padding: 30px 0px 30px 0px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+section .conteudo{
+    width: 800px;
+    margin: 0 auto;
+}
+
+section .cadastrar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+section .cadastrar h1{
+    font-family: "SpartanBold";
+    font-size: 35px;
+    line-height: 44px;
+    color: var(--azule);
+}
+
+/*BUTTONS*/
+section .buttons-grid{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    margin-top: 25px;
+    margin-bottom: 39px;
+}
+
+section .button-cadastrar{
+    width: 200px;
+    height: 50px;
+    background: none;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    
+    font-family: "VerdanaRegular";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: var(--preto);
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.button-cadastrar:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: var(--amarelo);
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  .button-cadastrar:hover:before, .button-cadastrar:focus:before, .button-cadastrar:active:before {
+    left: 0;
+    right: 0;
+  }
+
+section .button-consultar{
+    width: 200px;
+    height: 50px;
+    background: none;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    
+    font-family: "VerdanaRegular";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: var(--preto);
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden; 
+}
+
+.button-consultar:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: var(--azule);
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  .button-consultar:hover:before, .button-consultar:focus:before, .button-consultar:active:before {
+    left: 0;
+    right: 0;
+  }
+/* CHAPA / NOME */
+section .info-grid{
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+section .info-grid>span{
+    display: flex;
+    align-items: center;
+
+    font-family: "VerdanaRegular";
+    font-size: 17px;
+    line-height: 28px;
+}
+
+section .text-span{
+    font-family: "VerdanaRegular";
+    font-size: 17px;
+    line-height: 28px;
+}
+
+section .chapa>div{
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+}
+
+section .nome>div{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+section .icon-lupa{
+    height: 100%;
+    
+    display: flex;
+    align-items: center;  
+}
+
+/* LISTA DE DEMANDAS */
+section .lista-demandas h2{
+    font-family: "VerdanaRegular";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: var(--preto);
+
+    margin-top: 50px;
+}
+
+section .num-demanda {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-bottom: 0.5px solid rgba(190, 188, 188, 1);
+}
+
+.alinhamento-texto{
+    width: 350px;
+}
+
+section ul,li{
+    font-family: "VerdanaRegular";
+    font-size: 15px;
+    line-height: 27px;
+    text-align: justify;
+    
+
+    list-style-type: none;
+}
