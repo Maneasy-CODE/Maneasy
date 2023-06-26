@@ -37,20 +37,93 @@
                 <div class="conteudo">
                     <div class="cadastrar">
                         <img src="../assets/images/bolinha_azul.svg" alt="">
-                        <h1>Cadastrar</h1>
+                        <h1>Demandas</h1>
                     </div>
                     <div class="buttons-grid">
-                        <button class="button-cadastrar">Cadastrar</button>
-                        <button class="button-consultar">Consultar</button>
+                        <a href="#" class="button-cadastrar">Cadastrar</a>
+                        <a href="#" class="button-consultar">Consultar</a>
                     </div>
                     <div class="demanda">
                         <span>Nome da Demanda</span>
-                        <div class="demanda-cadastrar">
-                            <iconify-icon icon="mdi:clipboard-edit-outline" width="25" height="26"></iconify-icon>
+                        <div class="demanda-cadastrar input-icons">
+                            <iconify-icon class="icon" icon="mdi:clipboard-edit-outline" style="color: #474545;" width="25" height="26"></iconify-icon>
+                            <input class="input-field" name="nome-demanda" type="text">
                         </div>
                     </div>
+                    <div class="datas">
+                        <div class="criacao">
+                            <span>Criação</span>
+                            <div class="data-conte input-icons">
+                                <iconify-icon class="icon" icon="bx:calendar" style="color: #474545;" width="25" height="26"></iconify-icon>
+                                <input class="input-field" name="criacao" type="date">
+                            </div>
+                        </div>
 
-                    
+                        <div class="inicio">
+                            <span>Ínicio</span>
+                            <div class="data-conte input-icons">
+                                <iconify-icon class="icon" icon="bx:calendar" style="color: #474545;" width="25" height="26"></iconify-icon>
+                                <input class="input-field" name="criacao" type="date">
+                            </div>
+                        </div>
+
+                        <div class="termino">
+                            <span>Término</span>
+                            <div class="data-conte input-icons">
+                                <iconify-icon class="icon" icon="bx:calendar" style="color: #474545;" width="25" height="26"></iconify-icon>
+                                <input class="input-field" name="criacao" type="date">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="objetivo-demanda">
+                        <span>Objetivo de demanda</span>
+                        <textarea class="objetivo-form" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="progresso-demanda">
+                        <div class="orcamento-demanda">
+                            <span>Orçamento de demanda</span>
+                            <div class="data-conte">
+                                <iconify-icon class="icon" icon="bx:calendar" style="color: #474545;" width="25" height="26"></iconify-icon>
+                                <input class="input-field" name="criacao" type="date">
+                            </div>
+                        </div>
+
+                        <div class="tempo-demanda">
+                            <span>Tempo de demanda</span>
+                            <div class="data-conte">
+                                <iconify-icon class="icon" icon="bx:calendar" style="color: #474545;" width="25" height="26"></iconify-icon>
+                                <input class="input-field" name="criacao" type="date">
+                            </div>
+                        </div>
+
+                        <div class="status-demanda">
+                            <span>Status da Demanda</span>
+                            <div class="data-conte">
+                                <div class="demanda-criada-status">
+                                    <iconify-icon icon="el:ok-circle" style="color: #474545;" width="25" height="26"></iconify-icon>
+                                    <select class="select-status" name="status">
+                                        <option value="">Aberto</option>]
+                                        <option value="">Em andamento</option>
+                                        <option value="">Finalizado</option>
+                                    </select>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-options">
+                        <a href=""><img src="../assets/images/Botão Confirmar.svg" alt=""></a>
+                        <div>
+                            <iconify-icon class="tamanho-icone" icon="ep:circle-check-filled" style="color: #2c9123;" width="27" height="27"></iconify-icon>
+                            <iconify-icon class="tamanho-icone" icon="teenyicons:x-circle-solid" style="color: #c25348;" width="25"
+                                height="26"></iconify-icon>
+                        </div>
+
+                    </div>
+
+
+
+
 
                 </div>
             </div>
