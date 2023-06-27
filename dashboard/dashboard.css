@@ -1,0 +1,230 @@
+:root{
+    --projeto: #2274AC;
+    --demanda: #499AD1;
+    --disponivel: #50B747;
+    --afastamento: #80DE78;
+    --ferias: #FFD100;
+    --cinza: #bdbbbb;
+
+    --projeto_indicador: 40%;
+    --demanda_indicador: 25%;
+    --disponivel_indicador: 23%;
+    --afastamento_indicador: 08%;
+    --ferias_indicador: 04%;
+
+    --hard_skill: #2274AC;
+
+}
+
+section {
+    font-family: "VerdanaRegular";
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section_status_profissional_hard_skill{
+    display: flex;
+}
+
+
+.section_titulo {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    font-family: "SpartanBold";
+    color: var(--azule);
+    font-size: 30px;
+
+}
+
+.section_titulo img {
+    padding-right: 20px;
+} 
+
+/*status profissional*/
+
+.titulo_dashboard{
+    color: var(--preto);
+    font-family: "VerdanaRegular";
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.section_status_profissional{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.grafico_legenda{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.confirguracao_geral{
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.indicador{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.indicador01{
+    background-color: var(--projeto);
+}
+
+.indicador02{
+    background-color: var(--demanda);
+}
+
+.indicador03{
+    background-color: var(--disponivel);
+}
+
+.indicador04{
+    background-color: var(--afastamento);
+}
+
+.indicador05{
+    background-color: var(--ferias);
+}
+
+
+.circulo {
+    border-radius: 50%;
+    border: 4px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo01 {
+    width: 225px;
+    height: 225px;
+    background-image: conic-gradient(var(--projeto) var(--projeto_indicador), var(--cinza) var(--projeto_indicador));
+}
+
+.circulo02 {
+
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(var(--demanda) var(--demanda_indicador), var(--cinza) var(--demanda_indicador));
+    
+}
+
+.circulo03 {
+
+    width: 175px;
+    height: 175px;
+    background-image: conic-gradient(var(--disponivel) var(--disponivel_indicador), var(--cinza) var(--disponivel_indicador));
+    
+}
+.circulo04 {
+
+    width: 150px;
+    height: 150px;
+    background-image: conic-gradient(var(--afastamento) var(--afastamento_indicador), var(--cinza) var(--afastamento_indicador));
+  
+}
+
+.circulo05 {
+
+    width: 125px;
+    height: 125px;
+    background-image: conic-gradient(var(--ferias) var(--ferias_indicador), var(--cinza) var(--ferias_indicador));
+
+}
+
+.circulo06{
+    width: 100px;
+    height: 100px;
+    background:#fff;
+}
+
+/*Hard Skill x Profissionais*/
+
+.indicador_hard_skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 225px;
+    margin-right: 20px;
+}
+
+.hard_skill_profissionais{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.hard_skill_profissionais>div{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    
+}
+
+.barras{
+    background-color: #bdbbbb;
+    transform: rotate(270deg);
+    width: 225px;
+}
+
+
+.barra_externa{
+    width: 225px;
+    height: 18px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    margin: 0 0 30px 0;
+
+
+}
+
+.barra_projeto{
+    width: 80%;
+    height: 18px;
+    background-color: var(--hard_skill);
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.barra_demanda{
+    width: 60%;
+    height: 18px;
+    background-color: var(--hard_skill);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.barra_disponivel{
+    width: 50%;
+    height: 18px;
+    background-color: var(--hard_skill);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.barra_afastamento{
+    width: 5%;
+    height: 18px;
+    background-color: var(--hard_skill);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.barra_ferias{
+    width: 10%;
+    height: 18px;
+    background-color: var(--hard_skill);
+    border-radius: 5px 5px 5px 5px;
+}
+
+
