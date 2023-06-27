@@ -18,8 +18,7 @@ section .conteudo{
     margin: 0 auto;
     font-family: Verdana ;
     color: var(--preto);
-    line-height: 28px;
-    /*background-color: aqua;*/
+    line-height: 36px;
 }
 
 section .cadastrar{
@@ -113,6 +112,8 @@ section .botao {
     width: 215px;
     height: 40px;
     text-align: center;
+    font-family: verdana;
+    font-size: 15px;
 }
 
 .input-anexo{
@@ -153,6 +154,7 @@ section .botao {
     background: none;
     border-radius: 20px ;
     resize: none;
+    padding: 10px;
 
 }
 
@@ -185,6 +187,11 @@ section .section_formulario5 {
     width: 100%;
     height: 100%;
     background: none;
+    font-family: Verdana;
+    font-size: 15PX;
+    color: var(--preto);
+
+
 
 }
 
@@ -199,6 +206,7 @@ section .selecao{
 
 section .input_status_chamado>select>option{
     border: none;
+    
 }
 
 input[type="file"]{
