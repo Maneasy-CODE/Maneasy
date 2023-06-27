@@ -64,15 +64,8 @@ label {
 .nav_cad_cons a {
     text-decoration: none;
     color: var(--preto);
-    font-size: 20px; 
-}
-
-.btn_cad {
+    font-size: 20px;
     font-family: "VerdanaBold";
-}
-
-.btn_cons {
-    font-family: "VerdanaRegular";
 }
 
 .posicao_conteudo {
@@ -128,6 +121,7 @@ label {
 }
 .btn_conf rect:hover {
     fill: #80DE78;
-    width:48px;
-    height:48px;
+}
+.btn_canc rect:hover{
+ fill: #E88379;
 }

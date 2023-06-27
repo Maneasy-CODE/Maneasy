@@ -65,14 +65,7 @@ label {
     text-decoration: none;
     color: var(--preto);
     font-size: 20px;
-}
-
-.btn_cad {
     font-family: "VerdanaBold";
-}
-
-.btn_cons {
-    font-family: "VerdanaRegular";
 }
 
 .posicao_conteudo {
