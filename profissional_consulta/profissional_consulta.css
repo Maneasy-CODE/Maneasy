@@ -79,41 +79,70 @@ label {
     width: 270px;
 }
 
-span{
+span {
     margin: 39px 8px 0;
 }
 
 .input_nome {
     width: 400px;
 }
-.icon-lupa{
+
+.icon-lupa {
     margin-top: 25px;
 }
-h2{
+
+.secao_lista {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+h2 {
     font-family: "VerdanaBold";
     font-size: 20px;
     color: var(--preto);
     margin: 40px 0 20px;
 }
-tr{
-    font-family:"VerdanaRegular";
+
+tr {
+    font-family: "VerdanaRegular";
     font-size: 17px;
     color: var(--preto);
-    width: 800px;
+    width: 100%;
+
 }
-.lapis{
+
+td {
+    border-bottom: #BEBCBC solid 0.5px;
+    height: 50px;
+    border-collapse: collapse;
+    
+}
+
+.lapis {
     background-color: #50B747;
     padding: 4px;
     border-radius: 100px;
 }
-.numero_chapa{
-    width: 300px;
+
+.numero_chapa {
+    width: 30%;
 }
-.nome{
-    width: 300px; 
+
+.nome {
+    width: 60%;
 }
-.lapis_lista{
-    width: 200px;   
+
+.lapis_lista {
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
+    align-items: center;
 }
