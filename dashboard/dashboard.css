@@ -38,7 +38,7 @@
    --barra_interna_andamento_projeto_04: 82%;
 
     --barra_interna_demanda_01: 52%;
-    --barra_interna_demanda_02: 98%;
+    --barra_interna_demanda_02: 89%;
     --barra_interna_demanda_03: 78%;
     --barra_interna_demanda_04: 71%;
     --barra_interna_demanda_05: 68%;
@@ -502,6 +502,19 @@ h3{
 .legenda_demanda_chamado03{
     background-color: var( --barra_interna_finalizados);
 }
+
+html ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+  }
+  
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+  }
 
 
 
