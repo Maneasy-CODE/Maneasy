@@ -54,14 +54,14 @@ label {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 70px;
    
     margin: 25px 0px 30px 0px;
     /*background-color:darkmagenta*/
 }
 
 .button-cadastrar{
-    width: 200px;
+    width: 130px;
     height: 50px;
     background: none;
     border: none;
@@ -69,7 +69,6 @@ label {
     text-decoration: none;
     
     font-family: "VerdanaRegular";
-    font-weight: 700;
     font-size: 20px;
     line-height: 34px;
     color: var(--preto);
@@ -87,13 +86,13 @@ label {
     content: "";
     position: absolute;
     z-index: -1;
-    left: 51%;
-    right: 51%;
+    left: 100%;
+    right: 0;
     bottom: 0;
-    background: var(--amarelo);
-    height: 4px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
+    background: var(--azule);
+    height: 2px;
+    -webkit-transition-property: left;
+    transition-property: left;
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
     -webkit-transition-timing-function: ease-out;
@@ -102,11 +101,10 @@ label {
 
   .button-cadastrar:hover:before, .button-cadastrar:focus:before, .button-cadastrar:active:before {
     left: 0;
-    right: 0;
   }
 
 .button-consultar{
-    width: 200px;
+    width: 130px;
     height: 50px;
     background: none;
     border: none;
@@ -114,7 +112,6 @@ label {
     text-decoration: none;
     
     font-family: "VerdanaRegular";
-    font-weight: 700;
     font-size: 20px;
     line-height: 34px;
     color: var(--preto);
@@ -132,13 +129,13 @@ label {
     content: "";
     position: absolute;
     z-index: -1;
-    left: 51%;
-    right: 51%;
+    left: 0;
+    right: 100%;
     bottom: 0;
     background: var(--azule);
-    height: 4px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
     -webkit-transition-timing-function: ease-out;
@@ -146,7 +143,6 @@ label {
   }
 
 .button-consultar:hover:before, .button-consultar:focus:before, .button-consultar:active:before {
-    left: 0;
     right: 0;
   }
 
