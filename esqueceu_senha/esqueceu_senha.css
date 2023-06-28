@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(#ffffffe1, #ffffffe1), url("../assets/images/background_maneasy.svg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right bottom;
