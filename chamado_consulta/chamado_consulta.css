@@ -29,12 +29,14 @@ label {
 
 .section_titulo img {
     padding-right: 20px;
+    background-color: coral;
 }
 
 .container {
     max-width: 900px;
     width: 80%;
     margin: 0 auto;
+    background-color: aqua;
 }
 
 /*section .conteudo {
@@ -52,6 +54,7 @@ label {
     gap: 30px;
    
     margin: 25px 0px 30px 0px;
+    background-color:darkmagenta
 }
 
 .button-cadastrar{
@@ -145,11 +148,12 @@ label {
   }
 
 .pesquisas {
-    /*background-color: aquamarine;*/
+    background-color: aquamarine;
     display: flex;
     width: 100%;
     align-items: center;
-    margin: 0 0 30px 0;
+    margin: 0 auto 20px auto0;
+
 }
 
 .ou {
@@ -227,6 +231,20 @@ td {
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
+
+html ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+  }
+  
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+  }
+
 .fundo_amarelo {
     background-color: var(--amarelo);
 }
