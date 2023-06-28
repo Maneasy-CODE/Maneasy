@@ -2,16 +2,30 @@ label {
     font-family: "VerdanaRegular";
 }
 
+
+
 .section_titulo {
     display: flex;
-    margin: 50px auto;
+    margin: 50px 0 0 165px;
     font-family: "SpartanBold";
     color: var(--azule);
     font-size: 30px;
+    justify-content: flex-start;
 }
+
 
 .section_titulo img {
     padding-right: 20px;
+   /* background-color: coral;*/
+}
+
+.container {
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: column;
 }
 
 .icon {
@@ -27,17 +41,6 @@ label {
     margin-top: 10px;
 }
 
-.section_titulo img {
-    padding-right: 20px;
-    background-color: coral;
-}
-
-.container {
-    max-width: 900px;
-    width: 80%;
-    margin: 0 auto;
-    background-color: aqua;
-}
 
 /*section .conteudo {
     height: 100%;
@@ -54,7 +57,7 @@ label {
     gap: 30px;
    
     margin: 25px 0px 30px 0px;
-    background-color:darkmagenta
+    /*background-color:darkmagenta*/
 }
 
 .button-cadastrar{
@@ -152,7 +155,8 @@ label {
     display: flex;
     width: 100%;
     align-items: center;
-    margin: 0 auto 20px auto0;
+    margin: 0 auto 20px auto;
+    justify-content: space-between;
 
 }
 
@@ -182,7 +186,7 @@ label {
 }
 
 .section_table {
-    width: 90%;
+    width: 100%;
 }
 
 h2 {
@@ -217,12 +221,12 @@ td {
 
 .c2 {
     /* background-color: cornflowerblue;*/
-    padding-right: 180px;
+    padding-right: 285px;
 }
 
 .c3 {
     /* background-color:aquamarine;*/
-    padding: 10px 40px 10px 20px;
+    padding: 10px 10px 10px 20px;
 }
 
 .tabela_scroll {
