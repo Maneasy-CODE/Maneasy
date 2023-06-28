@@ -151,13 +151,12 @@ label {
   }
 
 .pesquisas {
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     display: flex;
     width: 100%;
     align-items: center;
     margin: 0 auto 20px auto;
     justify-content: space-between;
-
 }
 
 .ou {
