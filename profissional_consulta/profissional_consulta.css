@@ -124,7 +124,7 @@ td {
     border-bottom: #BEBCBC solid 0.5px;
     height: 50px;
     border-collapse: collapse;
-    
+
 }
 
 .lapis {
@@ -145,4 +145,25 @@ td {
     display: flex;
     justify-content: end;
     align-items: center;
+    margin-right: 20px;
 }
+
+.tabela_scroll {
+    width: 100%;
+    height: 298px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+  }
+  
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+  }
