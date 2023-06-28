@@ -38,8 +38,8 @@ section .botao {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 20px;
+    gap: 30px;
+    margin: 25px 0px 39px 0px;
     
 }
 
@@ -48,25 +48,86 @@ section .botao {
     height: 50px;
     text-align: center;
     text-decoration: none;
-    border-left:1px solid var(--preto);
-    border-bottom: 1px solid var(--preto);
     text-decoration: none;
-    font-family: "VerdanaRegular";
+    
+    font-family: "VerdanaBold";
     font-size: 20px;
+    line-height: 34px;
     color: var(--preto);
 
-    
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
 }
+
+.button_consultar:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: var(--azule);
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  .button_consultar:hover:before, .button_consultar:focus:before, .button_consultar:active:before {
+    right: 0;
+  }
+
  .button_cadastrar{
     width: 200px;
     height: 50px;
     text-align: center;
     text-decoration: none;
     text-decoration: none;
+    
     font-family: "VerdanaBold";
     font-size: 20px;
+    line-height: 34px;
     color: var(--preto);
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
 }
+
+.button_cadastrar:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 100%;
+    right: 0;
+    bottom: 0;
+    background: var(--amarelo);
+    height: 4px;
+    -webkit-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  .button_cadastrar:hover:before, .button_cadastrar:focus:before, .button_cadastrar:active:before {
+    left: 0;
+  }
+
+
 .icon {
     position: absolute;
     padding: 7.5px 20px 7.5px 10px;
