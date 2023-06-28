@@ -89,13 +89,13 @@ section .button-cadastrar{
     content: "";
     position: absolute;
     z-index: -1;
-    left: 51%;
-    right: 51%;
+    left: 100%;
+    right: 0;
     bottom: 0;
     background: var(--amarelo);
     height: 4px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
+    -webkit-transition-property: left;
+    transition-property: left;
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
     -webkit-transition-timing-function: ease-out;
@@ -104,7 +104,6 @@ section .button-cadastrar{
 
   .button-cadastrar:hover:before, .button-cadastrar:focus:before, .button-cadastrar:active:before {
     left: 0;
-    right: 0;
   }
 
 section .button-consultar{
@@ -134,13 +133,13 @@ section .button-consultar{
     content: "";
     position: absolute;
     z-index: -1;
-    left: 51%;
-    right: 51%;
+    left: 0;
+    right: 100%;
     bottom: 0;
     background: var(--azule);
     height: 4px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
+    -webkit-transition-property: right;
+    transition-property: right;
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
     -webkit-transition-timing-function: ease-out;
@@ -148,7 +147,6 @@ section .button-consultar{
   }
 
   .button-consultar:hover:before, .button-consultar:focus:before, .button-consultar:active:before {
-    left: 0;
     right: 0;
   }
 /* CHAPA / NOME */
