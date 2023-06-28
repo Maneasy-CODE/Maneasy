@@ -1,4 +1,4 @@
-:root{
+:root {
     --projeto: #2274AC;
     --demanda: #499AD1;
     --disponivel: #50B747;
@@ -22,7 +22,7 @@ section {
     margin: 0 auto;
 }
 
-.section_status_profissional_hard_skill{
+.section_status_profissional_hard_skill {
     display: flex;
 }
 
@@ -39,11 +39,11 @@ section {
 
 .section_titulo img {
     padding-right: 20px;
-} 
+}
 
 /*status profissional*/
 
-.titulo_dashboard{
+.titulo_dashboard {
     color: var(--preto);
     font-family: "VerdanaRegular";
     font-size: 18px;
@@ -51,19 +51,19 @@ section {
 }
 
 
-.section_status_profissional{
+.section_status_profissional {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
-.grafico_legenda{
+.grafico_legenda {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.confirguracao_geral{
+.confirguracao_geral {
     display: flex;
     gap: 10px;
     font-size: 13px;
@@ -71,29 +71,29 @@ section {
     margin-bottom: 5px;
 }
 
-.indicador{
+.indicador {
     width: 18px;
     height: 18px;
     border-radius: 50%;
 }
 
-.indicador01{
+.indicador01 {
     background-color: var(--projeto);
 }
 
-.indicador02{
+.indicador02 {
     background-color: var(--demanda);
 }
 
-.indicador03{
+.indicador03 {
     background-color: var(--disponivel);
 }
 
-.indicador04{
+.indicador04 {
     background-color: var(--afastamento);
 }
 
-.indicador05{
+.indicador05 {
     background-color: var(--ferias);
 }
 
@@ -113,11 +113,9 @@ section {
 }
 
 .circulo02 {
-
     width: 200px;
     height: 200px;
     background-image: conic-gradient(var(--demanda) var(--demanda_indicador), var(--cinza) var(--demanda_indicador));
-    
 }
 
 .circulo03 {
@@ -125,14 +123,15 @@ section {
     width: 175px;
     height: 175px;
     background-image: conic-gradient(var(--disponivel) var(--disponivel_indicador), var(--cinza) var(--disponivel_indicador));
-    
+
 }
+
 .circulo04 {
 
     width: 150px;
     height: 150px;
     background-image: conic-gradient(var(--afastamento) var(--afastamento_indicador), var(--cinza) var(--afastamento_indicador));
-  
+
 }
 
 .circulo05 {
@@ -143,15 +142,15 @@ section {
 
 }
 
-.circulo06{
+.circulo06 {
     width: 100px;
     height: 100px;
-    background:#fff;
+    background: #fff;
 }
 
 /*Hard Skill x Profissionais*/
 
-.indicador_hard_skill{
+.indicador_hard_skill {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -159,29 +158,38 @@ section {
     margin-right: 20px;
 }
 
-.hard_skill_profissionais{
+.hard_skill_profissionais {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     width: 50%;
-
+    background-color: #bdbbbb;
 }
 
-.hard_skill_profissionais>div{
+.hard_skill_profissionais>div {
     display: flex;
     font-size: 13px;
     align-items: center;
-    
+    width: 100%;
+
 }
 
-.barras{
-    background-color: #bdbbbb;
+.barras {
+
     transform: rotate(270deg);
     width: 225px;
+
+    height: 100%;
+    max-height: 237px;
+
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
 }
 
 
-.barra_externa{
+.barra_externa {
     width: 225px;
     height: 18px;
     background-color: #D9D9D9;
@@ -191,7 +199,7 @@ section {
 
 }
 
-.barra_projeto{
+.barra_projeto {
     width: 80%;
     height: 18px;
     background-color: var(--hard_skill);
@@ -199,32 +207,30 @@ section {
 }
 
 
-.barra_demanda{
+.barra_demanda {
     width: 60%;
     height: 18px;
     background-color: var(--hard_skill);
     border-radius: 5px 5px 5px 5px;
 }
 
-.barra_disponivel{
+.barra_disponivel {
     width: 50%;
     height: 18px;
     background-color: var(--hard_skill);
     border-radius: 5px 5px 5px 5px;
 }
 
-.barra_afastamento{
+.barra_afastamento {
     width: 5%;
     height: 18px;
     background-color: var(--hard_skill);
     border-radius: 5px 5px 5px 5px;
 }
 
-.barra_ferias{
+.barra_ferias {
     width: 10%;
     height: 18px;
     background-color: var(--hard_skill);
     border-radius: 5px 5px 5px 5px;
 }
-
-
