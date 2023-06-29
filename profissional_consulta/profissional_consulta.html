@@ -50,27 +50,32 @@
                         <a class="btn_cad" href="">Cadastrar</a>
                         <a class="btn_cons" href="">Consultar</a>
                     </nav>
-                    <div class="posicao_conteudo">
-                        <div>
+
+                    <div class="section_pesquisa">
+                        <div class="section_pesquisa_resultado_input">
                             <label for="Chapa">Chapa</label>
                             <div class="input-icons">
                                 <iconify-icon class="icon" icon="ic:outline-badge"></iconify-icon>
-                                <input name="Chapa" class="input_chapa input-field" type="text">
+                                <input name="Chapa" class="input-field" type="number">
                             </div>
                         </div>
-                        <span>ou</span>
+
                         <div>
-                            <label for="Nome">Nome</label>
+                            <p>ou</p>
+                        </div>
+
+                        <div class="section_pesquisa_resultado_input">
+                            <label for="Consultar">Consultar</label>
                             <div class="input-icons">
                                 <iconify-icon class="icon" icon="mingcute:user-4-fill"></iconify-icon>
-                                <input name="Nome" class="input_nome input-field" type="text">
+                                <input name="Consultar" class="input-field" type="text">
                             </div>
                         </div>
-                        <div class="icon-lupa">
-                            <button><iconify-icon icon="heroicons:magnifying-glass-circle-20-solid"
-                                    style="color: #6E6E6E;" width="45" height="45"></iconify-icon></button>
-                        </div>
+
+                        <a href="" class="section_pesquisa_btn"><img src="../assets/images/btn_pesquisar.svg" alt=""></a>
                     </div>
+
+
                     <section class="secao_lista">
                         <h2>Lista de Profissionais</h2>
                         <div class="tabela_scroll">
@@ -80,8 +85,7 @@
                                     <td class="nome">Priscila Laurentino</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -90,8 +94,7 @@
                                     <td class="nome">Hosmairys Yuriannys Holder Rodriguez</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -100,8 +103,7 @@
                                     <td class="nome">Gustavo Luiz Miranda</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -110,8 +112,7 @@
                                     <td class="nome">Claudio Francisco Porto</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -120,18 +121,16 @@
                                     <td class="nome">Jhonatan Pereira Ferreira</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
-                                     </td>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td class="numero_chapa">01010101</td>
                                     <td class="nome">Marcel de Lima Brito</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -140,8 +139,7 @@
                                     <td class="nome">Lucas Oliveira</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -150,8 +148,7 @@
                                     <td class="nome">Priscila Laurentino</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -160,8 +157,7 @@
                                     <td class="nome">Hosmairys Yuriannys Holder Rodriguez</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -170,8 +166,7 @@
                                     <td class="nome">Gustavo Luiz Miranda</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -180,8 +175,7 @@
                                     <td class="nome">Claudio Francisco Porto</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -190,8 +184,7 @@
                                     <td class="nome">Jhonatan Pereira Ferreira</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -200,8 +193,7 @@
                                     <td class="nome">Marcel de Lima Brito</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>
@@ -210,8 +202,7 @@
                                     <td class="nome">Lucas Oliveira</td>
                                     <td class="lapis_lista">
                                         <a href="">
-                                            <iconify-icon class="lapis" icon="mdi:pencil" style="color: #fff;"
-                                                width="15" height="15"></iconify-icon>
+                                            <img src="../assets/images/btn_editar.svg" alt="">
                                         </a>
                                     </td>
                                 </tr>

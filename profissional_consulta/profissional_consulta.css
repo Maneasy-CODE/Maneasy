@@ -9,7 +9,6 @@
 }
 
 .input-icons {
-    width: 30%;
     margin-top: 10px;
 }
 
@@ -233,6 +232,64 @@ html ::-webkit-scrollbar-track {
 
 .section_titulo img {
     padding-right: 20px;
+}
+
+/*input pesquisa*/
+
+
+
+.section_pesquisa_resultado_input {
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    padding: 11px 20px 7.5px 10px;
+    align-items: center;
+    color: var(--preto);
+    font-size: 20px;
+}
+
+.input-icons {
+    margin-top: 10px;
+    position: relative;
+}
+
+.input-field {
+    width: 100%;
+    background: transparent;
+    border-radius: 100px;
+    height: 40px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+
+
+.section_pesquisa p {
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    padding: 30px 10px 10px 10px;
+    
+}
+
+.section_pesquisa_btn img {
+    width: 34px;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.section_pesquisa_resultado {
+    color: var(--preto);
+    display: flex;
+    flex-direction: column;
+}
+
+.section_pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
 }
 
 

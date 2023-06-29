@@ -180,6 +180,7 @@ label {
 
 .input_status {
     width: 330px;
+    font-size: 16px;
 }
 
 .input_email {
@@ -269,4 +270,5 @@ html ::-webkit-scrollbar-track {
 select {
     -webkit-appearance: none;
 }
+
 
