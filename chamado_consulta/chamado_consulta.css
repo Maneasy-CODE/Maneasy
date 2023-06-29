@@ -6,11 +6,11 @@ label {
 
 .section_titulo {
     display: flex;
-    margin: 50px 0 0 165px;
+    width: 80%;
+    margin: 50px auto;
     font-family: "SpartanBold";
     color: var(--azule);
     font-size: 30px;
-    justify-content: flex-start;
 }
 
 
@@ -30,11 +30,11 @@ label {
 
 .icon {
     position: absolute;
-    padding: 7.5px 20px 7.5px 10px;
+    padding: 11px 20px 7.5px 10px;
     align-items: center;
-    color: #474545;
+    color: var(--preto);
     min-width: 40px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .input-icons {
