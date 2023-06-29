@@ -218,3 +218,24 @@ textarea {
 .form_id .section_pesquisa_resultado_input{
     width: 70%;
 }
+
+.tabela_scroll {
+    width: 100%;
+    padding-right: 5%;
+    height: 298px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+  }
+  
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+  }
