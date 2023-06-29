@@ -39,14 +39,20 @@
 .titulo_profissional {
     background-color: #80DE78;
     display: flex;
-    align-items: center;
     color: var(--azule);
     gap: 30px;
+
+}
+
+
+.titulo_profissional h1 {
     font-family: "SpartanBold";
+    font-size: 30px;
+
 }
 
 h1 {
-    font-size: 40px;
+
 }
 
 label {
