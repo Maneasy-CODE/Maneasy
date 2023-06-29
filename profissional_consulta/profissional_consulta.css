@@ -1,11 +1,11 @@
 /* ICONES */
 .icon {
     position: absolute;
-    padding: 6px 20px 7.5px 10px;
+    padding: 10.5px 20px 7.5px 10px;
     align-items: center;
     color: #474545;
     min-width: 40px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .input-icons {
@@ -22,18 +22,17 @@
 
 
 /* CONTEUDO */
-.container_grid {
-    width: 100%;
-    height: 100%;
-    border-radius: 40px 0 0 40px;
-    padding: 70px 0;
+
+.conteudo_princiapal{
+    width: 80%;
 }
 
-.conteudo {
-    width: 800px;
-    height: 100%;
-    margin: 0 auto;
+.container_grid {
+    width: 80%;
+    margin: 0 auto 50px auto;
+    border-radius: 40px 0 0 40px;
 }
+
 
 .titulo_profissional {
     display: flex;
@@ -42,10 +41,6 @@
     color: var(--azule);
     gap: 30px;
     font-family: "SpartanBold";
-}
-
-h1 {
-    font-size: 40px;
 }
 
 label {
@@ -135,6 +130,7 @@ label {
 
 .input_chapa {
     width: 270px;
+    height: 40px;
 }
 
 span {
@@ -225,3 +221,20 @@ html ::-webkit-scrollbar-thumb {
 html ::-webkit-scrollbar-track {
     background: #ededed;
   }
+
+  .section_titulo {
+    display: flex;
+    margin: 50px auto;
+    font-family: "SpartanBold";
+    color: var(--azule);
+    font-size: 30px;
+
+}
+
+.section_titulo img {
+    padding-right: 20px;
+}
+
+
+
+
