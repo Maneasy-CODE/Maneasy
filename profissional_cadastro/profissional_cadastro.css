@@ -1,7 +1,7 @@
 /* ICONES */
 .icon {
     position: absolute;
-    padding: 6px 20px 7.5px 10px;
+    padding: 10.5px 20px 7.5px 10px;
     align-items: center;
     color: #474545;
     min-width: 40px;
@@ -11,6 +11,8 @@
 .input-icons {
     width: 30%;
     margin-top: 10px;
+    position: relative;
+
 }
 
 .input-field {
@@ -18,16 +20,40 @@
     border-radius: 100px;
     padding: 10px 10px 10px 40px;
     border: 1px solid #474545;
+    height: 40px;
+}
+
+/*TITULO*/
+
+.section_titulo {
+    display: flex;
+    margin: 50px auto;
+    font-family: "SpartanBold";
+    color: var(--azule);
+    font-size: 30px;
+
+}
+
+.section_titulo img {
+    padding-right: 20px;
 }
 
 
 /* CONTEUDO*/
+
+.conteudo_princiapal{
+    overflow-y: scroll;
+    scroll-behavior: smooth;  
+
+}
+
 .container_grid {
     width: 80%;
     height: 100%;
     border-radius: 40px 0 0 40px;
-    padding: 70px 0;
     margin: 0 auto;
+
+
 }
 
 .conteudo {
@@ -140,28 +166,39 @@ label {
     margin-bottom: 20px;
 }
 
+.horas{
+    display: flex;
+    gap: 40px;
+}
+
 .input_chapa {
-    width: 260px;
+    width: 330px;
 }
 
 .input_nome {
-    width: 510px;
+    width: 600px;
 }
 
 .input_status {
-    width: 260px;
+    width: 330px;
 }
 
 .input_email {
-    width: 510px;
+    width: 600px;
 }
 
 .input_ini_ferias {
-    width: 385px;
+    width: 465px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "VerdanaRegular";
 }
 
 .input_fim_ferias {
-    width: 385px;
+    width: 465px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "VerdanaRegular";
 }
 
 .hard_skill {
@@ -184,13 +221,54 @@ label {
     margin-left: 15px;
     padding-top: 27px;
 }
-.btn_conf rect:hover {
-    fill: #80DE78;
-}
-.btn_canc rect:hover{
- fill: #E88379;
-}
 
 ::-webkit-calendar-picker-indicator {
     display: none;
 }
+
+
+/*Hard Skill*/
+
+.section_objetivo_projeto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section_objetivo_projeto p {
+    padding: 30px 10px 10px 10px;
+}
+
+.section_objetivo_projeto_label_textarea {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #474545;
+    resize: none;
+    margin: 15px 0 20px 0;
+
+}
+
+html ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+  }
+  
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+  }
+
+select {
+    -webkit-appearance: none;
+}
+
+
