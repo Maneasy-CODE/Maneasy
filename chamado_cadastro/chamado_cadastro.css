@@ -38,19 +38,18 @@ section .botao {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    margin: 25px 0px 39px 0px;
-    
+    gap: 70px;
+    margin:25px 0px 39px 0px;
 }
 
  .button_consultar{
-    width: 200px;
+    width: 130px;
     height: 50px;
     text-align: center;
     text-decoration: none;
     text-decoration: none;
     
-    font-family: "VerdanaBold";
+    font-family: "VerdanaRegular";
     font-size: 20px;
     line-height: 34px;
     color: var(--preto);
@@ -72,7 +71,7 @@ section .botao {
     right: 100%;
     bottom: 0;
     background: var(--azule);
-    height: 4px;
+    height: 2px;
     -webkit-transition-property: right;
     transition-property: right;
     -webkit-transition-duration: 0.6s;
@@ -86,13 +85,13 @@ section .botao {
   }
 
  .button_cadastrar{
-    width: 200px;
+    width: 130px;
     height: 50px;
     text-align: center;
     text-decoration: none;
     text-decoration: none;
     
-    font-family: "VerdanaBold";
+    font-family: "VerdanaRegular";
     font-size: 20px;
     line-height: 34px;
     color: var(--preto);
@@ -113,8 +112,8 @@ section .botao {
     left: 100%;
     right: 0;
     bottom: 0;
-    background: var(--amarelo);
-    height: 4px;
+    background: var(--azule);
+    height: 2px;
     -webkit-transition-property: left;
     transition-property: left;
     -webkit-transition-duration: 0.6s;
