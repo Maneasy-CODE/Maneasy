@@ -18,11 +18,15 @@ label{
     /*background-color: rebeccapurple;*/
 }
 
+label{
+    margin-bottom: 10px;
+}
+
 h1{
     color: var(--azule);
     font-family: "SpartanBold";
     margin-left: 20px;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .atualizar_e_consultar{
@@ -113,15 +117,16 @@ h1{
 
 .icon {
     position: absolute;
-    padding: 7.5px 20px 7.5px 10px;
+    padding: 11px 20px 7.5px 10px;
     align-items: center;
     color: #474545;
     min-width: 40px;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .input-icons {
     width: 100%;
+    position: relative;
     
 }
 
@@ -161,6 +166,18 @@ h1{
     font-family: "VerdanaRegular";
 }
 
+input[type="date" i] {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "VerdanaRegular";
+    width: 100%;
+}
+
+::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    display: none;
+}
+
 /*CAMPO OBJETIVO DO PROJETO*/
 
 .input_objetivo{
@@ -187,14 +204,14 @@ h1{
 
 
 textarea{
-    font-family: "VerdanaRegular";
+  /*  font-family: "VerdanaRegular";*/
     width: 100%;
-    height: 200px;
-    padding: 10px;
-    border-radius: 25px;
+   /* height: 200px;*/
+    padding: 20px;
+    border-radius: 20px;
     border: 1px solid #474545;
     background: transparent;
-    resize: none;
+   /* resize: none;*/
 }
 
 
@@ -213,6 +230,7 @@ textarea{
     width: 45%;
     display: flex;
     flex-direction: column;
+    font-family: "VerdanaRegular";
 }
 
 select{
@@ -237,6 +255,7 @@ select{
 .link_button{
     display: flex;
     justify-content: space-between;
+    margin: 30px 0 10px 0;
 }
 
 .link_button img{
@@ -247,6 +266,7 @@ select{
 .btn_links button{
     border: none;
     background: transparent;
+    margin: 0 4px;
 }
 
 .fundo_amarelo {
