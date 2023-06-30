@@ -1,23 +1,38 @@
 /* CLASSES GENERICAS */
 .icon {
     position: absolute;
-    padding: 7.5px 20px 7.5px 10px;
+    padding: 11px 20px 7.5px 10px;
     align-items: center;
-    color: #474545;
-    min-width: 40px;
-    font-size: 25px;
+    color: var(--preto);
+    font-size: 20px;
 }
 
 .input-icons {
     width: 30%;
+    margin-top: 10px;
+    position: relative;
 }
 
 .input-field {
+    width: 100%;
     background: transparent;
     border-radius: 100px;
-    width: 100%;
+    height: 40px;
     padding: 10px 10px 10px 40px;
     border: 1px solid #474545;
+}
+
+input[type="date"] {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "VerdanaRegular";
+    width: 100%;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
 }
 
 /* TITULO */
@@ -25,25 +40,25 @@ section .container-grid{
     width: 100%;
     height: 100%;
     border-radius: 40px 0 0 40px;
-    padding: 30px 0px 30px 0px;
+    padding: 50px 0px 30px 0px;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
 
 section .conteudo{
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
 section .cadastrar{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 section .cadastrar h1{
     font-family: "SpartanBold";
-    font-size: 35px;
+    font-size: 45px;
     line-height: 44px;
     color: var(--azule);
 }
@@ -148,12 +163,12 @@ section .button-consultar{
 /* DEMANDA */
 section .demanda{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 section .demanda span{
     font-family: "VerdanaRegular";
-    font-size: 17px;
+    font-size: 16px;
     line-height: 28px;
 }
 
@@ -167,25 +182,27 @@ section .demanda-cadastrar{
 }
 
 /* DATAS */
+section .datas div {
+    width: 100%;
+}
 
 section .datas{
     width: 100%;
-    height: 60px;
     
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 
     margin-bottom: 20px;
 }
 
 section .datas span{
     font-family: "VerdanaRegular";
-    font-size: 17px;
+    font-size: 16px;
     line-height: 28px;
 }
 
 section .data-conte{
-    width: 240px;
+    width: 100%;
     height: 35px;
     
     display: flex;
@@ -195,7 +212,7 @@ section .data-conte{
 
 section time{
     font-family: "VerdanaRegular";
-    font-size: 17px;
+    font-size: 16px;
     line-height: 28px;
     padding-left: 16px;
 }
@@ -203,7 +220,7 @@ section time{
 /* OBJETIVO */
 section .objetivo-demanda span{
     font-family: "VerdanaRegular";
-    font-size: 17px;
+    font-size: 16px;
     line-height: 28px;
 }
 
@@ -217,34 +234,34 @@ section textarea{
 
 section .objetivo-demanda .objetivo-form{
     width: 100%;
-    height: 120px;
-
-    border: 1px solid var(--preto);
+    height: 102px;
+    background: transparent;
     border-radius: 20px;
-
-    display: flex;
-    align-items: center;
-    justify-content:flex-end;
-
-    margin-bottom: 20px;
     padding: 20px;
+    border: 1px solid #474545;
+    margin: 10px 0px 30px 0px;
 }
 
 
 /* ORÇAMENTO DEMANDA */
+section .progresso-demanda>div{
+    width: 100%;
+}
 
 section .progresso-demanda{
     width: 100%;
-    height: 130px;
-    
+
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 section .progresso-demanda span {
     font-family: "VerdanaRegular";
-    font-size: 17px;
+    font-size: 16px;
     line-height: 28px;
+    margin-top: 10px;
 }
 
 section .demanda-criada-status{
@@ -258,6 +275,7 @@ section .demanda-criada-status{
     
     padding: 10px 10px 10px 10px;
     border: 1px solid #474545;
+    margin-top: 10px;
 }
 
 section .status-demanda .demanda-criada{
@@ -274,10 +292,10 @@ section .status-demanda .data-conte{
 }
 
 section .select-status {
-    width: 160px;
+    width: 100%;
     margin-left: 15px;
     font-family: "VerdanaRegular";
-    font-size: 17px;
+    font-size: 16px;
     line-height: 28px;
     border: none;
     background: none;
