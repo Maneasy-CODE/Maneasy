@@ -1,37 +1,33 @@
 
-
 /* CLASSE Generica */
-
-
 section .container-grid{
     width: 100%;
-    height: 100%;
     border-radius: 40px 0 0 40px;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 70px;
     overflow-y: scroll;
-    scroll-behavior:  smooth;
+    scroll-behavior: smooth;
 }
 
 section .conteudo{
     width: 80%;
+    height: 593px;
     margin: 0 auto;
     font-family: Verdana ;
     color: var(--preto);
-    line-height: 36px;
 }
 
 section .cadastrar{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     
 }
 section .cadastrar h1{
-font-family: "SpartanBold";
-font-size: 44px;
-line-height:44px ;
-color: var(--azule);
+    font-family: "SpartanBold";
+    font-size: 45px;
+    line-height:44px ;
+    color: var(--azule);
 }
 section .botao {
     width: 100%;
@@ -129,26 +125,23 @@ section .botao {
 
 .icon {
     position: absolute;
-    padding: 7.5px 20px 7.5px 10px;
+    padding: 11px 20px 7.5px 10px;
     align-items: center;
-    color: #474545;
-    min-width: 40px;
-    font-size: 25px;
+    color: var(--preto);
+    font-size: 20px;
 }
 
 .input-icons {
-    width: 30%;
-    position: relative;
-    
+    margin-top: 10px;
+    position: relative; 
 }
 
 .input-field-medium {
     background: transparent;
     border-radius: 100px;
-    width: 350px;
     padding: 10px 10px 10px 40px;
     border: 1px solid #474545;
-    width: 232px;
+    width: 312.85px;
     height: 40px;
 }
 
@@ -164,16 +157,15 @@ section .botao {
 
 .input-field-little {
 
-   
-    background: transparent;
-    border-radius: 100px;
-    width: 350px;
-    border: 1px solid #474545;
-    width: 215px;
-    height: 40px;
-    text-align: center;
+    width:100%;
     font-family: verdana;
     font-size: 15px;
+
+    background: transparent;
+    border-radius: 100px;
+    height: 40px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
 }
 
 .input-anexo{
@@ -181,14 +173,28 @@ section .botao {
     border-radius: 100px;
     width: 350px;
     border: 1px solid #474545;
-    width: 215px;
+    width: 312.85px;
     height: 40px;
 }
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input[type="date"] {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "VerdanaRegular";
+    width: 100%;
+}
+
 .section_formulario1 {
     width: 100%;
     justify-content: space-between;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -197,36 +203,40 @@ section .botao {
     width: 100%;
     justify-content: space-between;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .section_formulario3{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.section_formulario3>div{
+    width: 100%;
 }
 
 .descricao-chamado{
     width: 100%;
-    height: 145px;
-    background: none;
-    border-radius: 20px ;
-    resize: none;
-    padding: 10px;
-
+    height: 102px;
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #474545;
+    margin-top: 10px;
 }
 
 .section_formulario4{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 section .section_formulario5 {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -234,7 +244,7 @@ section .section_formulario5 {
     background: transparent;
     border-radius: 100px;
     border: 1px solid #474545;
-    width: 215px;
+    width: 312.85px;
     height: 40px;
     /*padding-left: 16px;*/
     display: flex;
@@ -290,5 +300,17 @@ input[type="file"]{
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+html ::-webkit-scrollbar {
+    width: 6px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+}
+html ::-webkit-scrollbar-track {
+    background: #ededed;
 }
 
