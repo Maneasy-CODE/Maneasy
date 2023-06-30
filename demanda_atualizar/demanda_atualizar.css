@@ -300,3 +300,38 @@ section .select-status {
     border: none;
     background: none;
 }
+
+/* FOOTER  */
+section .footer-options{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+section .footer-options>div{
+    display: flex;
+    gap: 5px;
+}
+
+section .footer-options img{
+    width: 25px;
+    height: 26px;
+}
+
+section .footer-options .tamanho-icone{
+    width: 30px;
+    height: 30px;
+}
+
+html ::-webkit-scrollbar {
+    width: 6px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+}
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+}
