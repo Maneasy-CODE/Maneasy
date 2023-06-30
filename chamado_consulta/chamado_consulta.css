@@ -2,8 +2,6 @@ label {
     font-family: "VerdanaRegular";
 }
 
-
-
 .section_titulo {
     display: flex;
     width: 80%;
@@ -38,6 +36,7 @@ label {
 }
 
 .input-icons {
+    width: 100%;
     margin-top: 10px;
 }
 
@@ -162,13 +161,14 @@ label {
 }
 
 .input-icons {
-    width: 30%;
+    width: 100%;
 }
 
 .input-field {
     background: transparent;
     border-radius: 100px;
-    width: 350px;
+    width: 100%;
+    height: 40px;
     padding: 10px 10px 10px 40px;
     border: 1px solid #474545;
 }
@@ -188,7 +188,6 @@ h2 {
     font-size: 20px;
     font-family: "VerdanaBold";
     padding: 50px 0 20px 0;
-    color: #474545;
 }
 
 table {
@@ -246,4 +245,18 @@ html ::-webkit-scrollbar-track {
 
 .fundo_amarelo {
     background-color: var(--amarelo);
+}
+
+.section_consulta_chamado_btn img{
+    width: 34px;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.input_id{
+    width: 45%;
+}
+
+.input_nome{
+    width: 45%;
 }
