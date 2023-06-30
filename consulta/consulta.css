@@ -71,7 +71,6 @@ h2 {
 }
 
 table {
-    width: 100%;
     background-color: blue;
     font-family: "Verdana";
     /* color: #474545;*/
@@ -92,20 +91,19 @@ td {
 }
 
 tr{
-    width: 1000px;
-    background-color: rgb(219, 130, 20);
+    display: flex;
+    justify-content: space-between;
 }
 
 .c1 {
     /*  background-color: darkgoldenrod;*/
-    width: 15%;
     background-color: aquamarine;
-    
+    width: 15%;
 }
 
 .c2 {
     /* background-color: cornflowerblue;*/
-    width: 100%;
+    width: 80%;
     background-color: bisque;
 
 }
