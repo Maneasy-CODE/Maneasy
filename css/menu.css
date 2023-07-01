@@ -23,13 +23,13 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right top;
+    background-position: right bottom;
 }
 
 .aside_logo {
-    max-width: 200px;
+    max-width: 140px;
     width: 70%;
-    margin: 0 auto;
+    margin: 40px auto 0 auto;
 }
 
 .nav_btn_menu {
@@ -64,8 +64,7 @@ section {
 
 .nav_btn_menu a {
     margin: 8px 0;
-    min-width: 178px;
-    max-width: 180px;
+    width: 180px;
     height: 40px;
     border-radius: 100px;
     background-color: var(--branco);
@@ -80,7 +79,6 @@ section {
 
 footer {
     min-height: 60px;
-    width: 100%;
     background-color: var(--azulc);
     display: flex;
     justify-content: center;
@@ -90,7 +88,7 @@ footer {
     cursor: pointer;
 }
 
-footer>a{
+footer>a {
     font-family: "VerdanaRegular";
     font-size: 17px;
     color: var(--branco);
