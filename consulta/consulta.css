@@ -71,15 +71,17 @@ h2 {
 }
 
 table {
-    background-color: blue;
-    font-family: "Verdana";
+    table-layout: fixed;
+    
+    font-family: "VerdanaRegular";
     /* color: #474545;*/
-    display: flex;
+    
     justify-content: space-between;
     border-spacing: 0;
 }
 
 td {
+   
     border-bottom: #27272729 solid 1px;
     height: 50px;
     border-collapse: collapse;
@@ -88,6 +90,7 @@ td {
 .section_table {
     /* background-color: burlywood;*/
     width: 100%;
+ 
 }
 
 tr{
@@ -114,7 +117,7 @@ tr{
 
 .c4 {
     /*background-color:fuchsia;*/
-}
+} 
 
 select{
     border-radius: 100px;
@@ -123,6 +126,8 @@ select{
 }
 
 .tabela-teste {
+    width: 100%;
+    background-color: royalblue;
     height: 311px;
     overflow-y: scroll;
     scroll-behavior: smooth;
