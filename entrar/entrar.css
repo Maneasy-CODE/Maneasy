@@ -117,6 +117,7 @@ button:hover {
     padding: 5px;
     color: var(--azule);
     cursor: pointer;
+    text-decoration:none; 
 }
 
 .nav_esqueceu_senha:hover{
@@ -129,9 +130,14 @@ button:hover {
     text-align: center;
     color: var(--azule);
     cursor: pointer;
+    text-decoration:none; 
 }
 
 .nav_cadastro:hover{
     color: var(--amarelo);
+}
+
+.sublinado{
+    text-decoration: none;
 }
 

@@ -315,13 +315,13 @@ section .footer-options>div{
 }
 
 section .footer-options img{
-    width: 25px;
-    height: 26px;
+    width: 34px;
+    height: 34px;
 }
 
 section .footer-options .tamanho-icone{
-    width: 30px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
 }
 
 html ::-webkit-scrollbar {
