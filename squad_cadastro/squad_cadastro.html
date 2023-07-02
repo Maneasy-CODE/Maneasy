@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="icon" href="../assets/images/icon_logo.svg">
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
-    <script src="../JavaScript/JavaScript.js" defer></script>
+    <script src="../squad_cadastro/squad_cadastro.js" defer></script>
 
 </head>
 
@@ -28,7 +28,7 @@
                 <a href="../projeto_cadastro/projeto_cadastro.html"><iconify-icon icon="la:project-diagram"></iconify-icon>Projetos</a>
                 <a href="../demanda_cadastro/demanda_cadastro.html"><iconify-icon icon="mdi:clipboard-edit-outline"></iconify-icon>Demandas</a>
                 <a href="../chamado_cadastro/chamado_cadastro.html"><iconify-icon icon="mdi:bell-alert-outline"></iconify-icon>Chamados</a>
-                <a href="../squad_cadastro/squad_cadastro.html"><iconify-icon icon="mdi:people-group"></iconify-icon>Squad</a>
+                <a id="input_squad" href="../squad_cadastro/squad_cadastro.html"><iconify-icon icon="mdi:people-group"></iconify-icon>Squad</a>
                 <a href="../consulta/consulta.html"><iconify-icon icon="mdi:file-report-outline"></iconify-icon>Consultas</a>
             </nav>
 
@@ -76,7 +76,7 @@
                         <div class="form_date_criacao_inicio_termino">
                             <label for="criacao">Criação</label>
                             <div class="input-icons">
-                                <iconify-icon class="icon" icon="zondicons:calendar"></iconify-icon>
+                                <iconify-icon class="icon icon_calendario" icon="zondicons:calendar"></iconify-icon>
                                 <input name="criacao" class="input-field" type="date">
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                         <div class="form_date_criacao_inicio_termino">
                             <label for="inicio">Ínicio</label>
                             <div class="input-icons">
-                                <iconify-icon class="icon" icon="zondicons:calendar"></iconify-icon>
+                                <iconify-icon class="icon icon_calendario" icon="zondicons:calendar"></iconify-icon>
                                 <input name="inicio" class="input-field" type="date">
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                         <div class="form_date_criacao_inicio_termino">
                             <label for="termino">Término</label>
                             <div class="input-icons">
-                                <iconify-icon class="icon" icon="zondicons:calendar"></iconify-icon>
+                                <iconify-icon class="icon icon_calendario" icon="zondicons:calendar"></iconify-icon>
                                 <input name="termino" class="input-field" type="date">
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                             <div>
                                 <p class="section_resultado_dados_id">010101</p>
 
-                                <p class="section_resultado_dados_nome">Implementação do onboarding </p>
+                                <p class="section_resultado_dados_nome">Claudio Francisco Porto</p>
                             </div>
 
                             <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
@@ -154,9 +154,9 @@
                         </div>
                         <div class="section_resultado_dados">
                             <div>
-                                <p class="section_resultado_dados_id">010101</p>
+                                <p class="section_resultado_dados_id">010102</p>
 
-                                <p class="section_resultado_dados_nome">Implementação do onboarding </p>
+                                <p class="section_resultado_dados_nome">Gustavo Luiz Miranda</p>
                             </div>
 
                             <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
@@ -165,91 +165,59 @@
                         </div>
                         <div class="section_resultado_dados">
                             <div>
-                                <p class="section_resultado_dados_id">010101</p>
+                                <p class="section_resultado_dados_id">010103</p>
 
-                                <p class="section_resultado_dados_nome">Implementação do onboarding </p>
+                                <p class="section_resultado_dados_nome">Hosmairys Yuriannys Holder Rodriguez</p>
                             </div>
 
-                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_squad_mais.svg"
                                     alt="">
                             </a>
                         </div>
                         <div class="section_resultado_dados">
                             <div>
-                                <p class="section_resultado_dados_id">010101</p>
+                                <p class="section_resultado_dados_id">010104</p>
 
-                                <p class="section_resultado_dados_nome">Implementação do onboarding </p>
+                                <p class="section_resultado_dados_nome">Jhonatan Pereira Ferreira</p>
                             </div>
 
-                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
-                                    alt="">
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_squad_mais.svg"
+                                alt="">
                             </a>
                         </div>
                         <div class="section_resultado_dados">
                             <div>
-                                <p class="section_resultado_dados_id">010101</p>
+                                <p class="section_resultado_dados_id">010105</p>
 
-                                <p class="section_resultado_dados_nome">Implementação do onboarding </p>
+                                <p class="section_resultado_dados_nome">Lucas Oliveira</p>
                             </div>
 
-                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
-                                    alt="">
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_squad_mais.svg"
+                                alt="">
                             </a>
                         </div>
                         <div class="section_resultado_dados">
                             <div>
-                                <p class="section_resultado_dados_id">010101</p>
+                                <p class="section_resultado_dados_id">010106</p>
 
-                                <p class="section_resultado_dados_nome">Implementação do onboarding </p>
+                                <p class="section_resultado_dados_nome">Priscila Laurentino</p>
                             </div>
 
-                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
-                                    alt="">
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_squad_mais.svg"
+                                alt="">
                             </a>
                         </div>
                         <div class="section_resultado_dados">
                             <div>
-                                <p class="section_resultado_dados_id">010101</p>
+                                <p class="section_resultado_dados_id">010107</p>
 
-                                <p class="section_resultado_dados_nome">Implementação do onboarding </p>
+                                <p class="section_resultado_dados_nome">Marcel de Lima Brito</p>
                             </div>
 
-                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
-                                    alt="">
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_squad_mais.svg"
+                                alt="">
                             </a>
                         </div>
-                        <div class="section_resultado_dados">
-                            <div>
-                                <p class="section_resultado_dados_id">010101</p>
-
-                                <p class="section_resultado_dados_nome">Implementação do onboarding </p>
-                            </div>
-
-                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
-                                    alt="">
-                            </a>
-                        </div>
-                        <div class="section_resultado_dados">
-                            <div>
-                                <p class="section_resultado_dados_id">010101</p>
-
-                                <p class="section_resultado_dados_nome">Implementação do onboarding </p>
-                            </div>
-
-                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
-                                    alt="">
-                            </a>
-                        </div>
-                        <div class="section_resultado_dados">
-                            <div>
-                                <p class="section_resultado_dados_id">010101</p>
-
-                                <p class="section_resultado_dados_nome">Implementação do onboarding </p>
-                            </div>
-
-                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
-                                    alt="">
-                            </a>
                         </div>
                     </div>
                 </div>
