@@ -72,16 +72,16 @@ h2 {
 
 table {
     table-layout: fixed;
-    
+
     font-family: "VerdanaRegular";
     /* color: #474545;*/
-    
+
     justify-content: space-between;
     border-spacing: 0;
 }
 
 td {
-   
+
     border-bottom: #27272729 solid 1px;
     height: 50px;
     border-collapse: collapse;
@@ -90,10 +90,10 @@ td {
 .section_table {
     /* background-color: burlywood;*/
     width: 100%;
- 
+
 }
 
-tr{
+tr {
     display: flex;
     justify-content: space-between;
 }
@@ -117,9 +117,9 @@ tr{
 
 .c4 {
     /*background-color:fuchsia;*/
-} 
+}
 
-select{
+select {
     border-radius: 100px;
     padding: 4px;
     background: transparent;
@@ -173,7 +173,7 @@ select{
     font-family: "VerdanaRegular";
     font-size: 16px;
     padding: 30px 10px 10px 10px;
-    
+
 }
 
 .section_pesquisa_btn img {
@@ -193,3 +193,63 @@ select{
     justify-content: space-between;
     margin: 30px 0 30px 0;
 }
+
+
+/*tabela*/
+
+.lista_consultas {
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    color: var(--preto);
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 300px;
+    padding-right: 5%;
+
+
+}
+
+.linha_consultas {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(39, 39, 39, 0.162);
+
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linha_consultas_id{
+    width: 20%;
+}
+
+.linha_consultas_tipo{
+    width: 55%;
+}
+
+.linha_consultas_status{
+    width: 15%;
+}
+
+html ::-webkit-scrollbar {
+    width: 6px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+}
+
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+}
+

@@ -27,6 +27,7 @@ section {
 form {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 100px;
 
 }
 
@@ -229,6 +230,8 @@ textarea {
     height: 298px;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    height: 300px;
+
 }
 
 html ::-webkit-scrollbar {
