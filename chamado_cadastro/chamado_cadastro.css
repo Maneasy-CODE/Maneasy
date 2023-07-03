@@ -271,7 +271,6 @@ section .selecao{
     height: 100%;
     background: transparent;
     border-radius: 40px;
-    text-align: center;
 }
 
 section .input_status_chamado>select>option{
@@ -312,4 +311,8 @@ html ::-webkit-scrollbar-thumb {
 }
 html ::-webkit-scrollbar-track {
     background: #ededed;
+}
+
+select {
+    -webkit-appearance: none;
 }

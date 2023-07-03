@@ -203,8 +203,8 @@ section .datas span{
 
 section .data-conte{
     width: 100%;
-    height: 35px;
-    
+    height: 40px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     position: relative;
@@ -245,8 +245,8 @@ section .progresso-demanda>div{
 
 section .progresso-demanda{
     width: 100%;
-    
     display: flex;
+    justify-content: center;
     gap: 20px;
     margin-bottom: 30px;
 }
@@ -291,6 +291,7 @@ section .select-status{
     background: none;
 }
 
+
 /* FOOTER  */
 section .footer-options{
     display: flex;
@@ -329,3 +330,27 @@ html ::-webkit-scrollbar-track {
 select {
     -webkit-appearance: none;
 }
+
+.select_status{
+    width: 45%;
+    flex-direction: column;
+    font-family: "VerdanaRegular";
+}
+
+select{
+    width: 100%;
+    height: 40px;
+    padding: 10px 40px;
+    color: var(--preto);
+    border-radius: 40px;
+    border: 1px solid #474545;
+    background: transparent;
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+}
+
+.select-icons{
+    position: relative;
+
+}
+

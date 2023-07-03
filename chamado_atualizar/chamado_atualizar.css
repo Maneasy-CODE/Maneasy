@@ -8,11 +8,21 @@
     font-size: 20px;
 }
 
+.icon_solicitante_profissional {
+    position: absolute;
+    padding: 10.5px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    min-width: 40px;
+    font-size: 20px;
+}
+
 .input-icons {
-    width: 30%;
+    width: 100%;
     margin-top: 10px;
     position: relative;
 }
+
 
 .input-field {
     background: transparent;
@@ -20,21 +30,23 @@
     width: 100%;
     padding: 10px 10px 10px 40px;
     border: 1px solid #474545;
+    height: 40px;
 }
+
 input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
     display: none;
     -webkit-appearance: none;
 }
 
-input[type="date"]{
+input[type="date"] {
     font-size: 16px;
     text-transform: uppercase;
     font-family: "VerdanaRegular";
     width: 100%;
 }
 
-textarea{
+textarea {
     width: 100%;
     background: transparent;
     border-radius: 20px;
@@ -45,7 +57,7 @@ textarea{
 }
 
 /* TITULO */
-section .container-grid{
+section .container-grid {
     width: 100%;
     height: 100%;
     border-radius: 40px 0 0 40px;
@@ -54,18 +66,18 @@ section .container-grid{
     scroll-behavior: smooth;
 }
 
-section .conteudo{
+section .conteudo {
     width: 80%;
     margin: 0 auto;
 }
 
-section .cadastrar{
+section .cadastrar {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-section .cadastrar h1{
+section .cadastrar h1 {
     font-family: "SpartanBold";
     font-size: 45px;
     line-height: 44px;
@@ -73,23 +85,23 @@ section .cadastrar h1{
 }
 
 /*BUTTONS*/
-section .buttons-grid{
+section .buttons-grid {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 70px;
-    margin:25px 0px 39px 0px;
+    margin: 25px 0px 39px 0px;
 }
 
-section .button-cadastrar{
+section .button-cadastrar {
     width: 130px;
     height: 50px;
     background: none;
     border: none;
     text-align: center;
     text-decoration: none;
-    
+
     font-family: "VerdanaRegular";
     font-size: 20px;
     line-height: 34px;
@@ -119,20 +131,22 @@ section .button-cadastrar{
     transition-duration: 0.6s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-  }
+}
 
-  .button-cadastrar:hover:before, .button-cadastrar:focus:before, .button-cadastrar:active:before {
+.button-cadastrar:hover:before,
+.button-cadastrar:focus:before,
+.button-cadastrar:active:before {
     left: 0;
-  }
+}
 
-section .button-consultar{
+section .button-consultar {
     width: 130px;
     height: 50px;
     background: none;
     border: none;
     text-align: center;
     text-decoration: none;
-    
+
     font-family: "VerdanaRegular";
     font-size: 20px;
     line-height: 34px;
@@ -144,7 +158,7 @@ section .button-consultar{
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .button-consultar:before {
@@ -162,25 +176,27 @@ section .button-consultar{
     transition-duration: 0.6s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-  }
+}
 
-.button-consultar:hover:before, .button-consultar:focus:before, .button-consultar:active:before {
+.button-consultar:hover:before,
+.button-consultar:focus:before,
+.button-consultar:active:before {
     right: 0;
-  }
+}
 
-  /* CHAMADO NUMERO */
-section .chamados{
+/* CHAMADO NUMERO */
+section .chamados {
     width: 100%;
     margin-bottom: 20px;
 }
 
-section .chamados span{
+section .chamados span {
     font-family: "VerdanaRegular";
     font-size: 16px;
     line-height: 28px;
 }
 
-section .num-chamados{
+section .num-chamados {
     width: 359px;
     height: 35px;
 
@@ -188,14 +204,14 @@ section .num-chamados{
     align-items: center;
 }
 
-section .lupa{  
+section .lupa {
     width: 34px;
     margin-left: 20px;
 }
 
 
 /* SOLICITANTE E PROFISSIONAL / NOME */
-section .info-grid{
+section .info-grid {
     width: 100%;
     height: 90px;
 
@@ -203,7 +219,7 @@ section .info-grid{
     justify-content: space-between;
 }
 
-section .info-grid>span{
+section .info-grid>span {
     display: flex;
     align-items: center;
 
@@ -212,32 +228,32 @@ section .info-grid>span{
     line-height: 28px;
 }
 
-section .text-span{
+section .text-span {
     font-family: "VerdanaRegular";
     font-size: 17px;
     line-height: 28px;
 }
 
-section .solicitante>div{
-    width: 370px;
-
+.solicitante {
+    width: 48%;
     display: flex;
-    align-items: center;
+    text-align: left;
+    flex-direction: column;
 }
 
-section .profissional>div{
-    width: 370px;
-
+.profissional {
+    width: 48%;
+    flex-direction: column;
     display: flex;
-    align-items: center;
 }
 
 /* DATAS */
 
-section .datas div{
+section .datas div {
     width: 100%;
 }
-section .datas{
+
+section .datas {
     width: 100%;
     height: 60px;
     gap: 20px;
@@ -246,21 +262,21 @@ section .datas{
     margin-bottom: 20px;
 }
 
-section .datas span{
+section .datas span {
     font-family: "VerdanaRegular";
     font-size: 17px;
     line-height: 28px;
 }
 
-section .data-conte{
+section .data-conte {
     width: 240px;
     height: 35px;
-    
+
     display: flex;
     align-items: center;
 }
 
-section time{
+section time {
     font-family: "VerdanaRegular";
     font-size: 17px;
     line-height: 28px;
@@ -268,56 +284,55 @@ section time{
 }
 
 /* DESCRIÇOES */
-section .chamado-info span{
+section .chamado-info span {
     font-family: "VerdanaRegular";
     font-size: 17px;
     line-height: 28px;
 }
 
-section textarea{
+section textarea {
     font-family: "VerdanaRegular";
     font-size: 13px;
     line-height: 28px;
     text-align: justify;
-    
+
 }
 
-section .chamado-info{
+section .chamado-info {
     margin-top: 30px;
 }
 
-section .chamado-info .chamado-form{
+section .chamado-info .chamado-form {
     width: 100%;
     height: 120px;
     border: 1px solid var(--preto);
     border-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content:flex-end;
+    justify-content: flex-end;
     padding: 20px;
 }
 
 
 /* BOTÕES CONFIRMAR  */
-section .footer-options{
+section .footer-options {
     display: flex;
     justify-content: space-between;
 
     margin-top: 20px;
 }
 
-section .footer-options>div{
+section .footer-options>div {
     display: flex;
     gap: 5px;
 }
 
-section .footer-options img{
+section .footer-options img {
     width: 34px;
-    height:  34px;
+    height: 34px;
 }
 
-section .footer-options .tamanho-icone{
+section .footer-options .tamanho-icone {
     width: 30px;
     height: 30px;
 }
-

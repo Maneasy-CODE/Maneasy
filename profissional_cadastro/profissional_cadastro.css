@@ -269,6 +269,10 @@ select {
     width: 40px;
 }
 
+select {
+    -webkit-appearance: none;
+}
+
 
 
 
