@@ -207,7 +207,6 @@ section .num-projetos{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    align-items:center;
     height: 50px;
     border-bottom: 0.5px solid rgba(190, 188, 188, 1);
 }
@@ -218,7 +217,7 @@ section .num-projetos{
 
 section ul,li{
     font-family: "VerdanaRegular";
-    font-size: 15px;
+    font-size: 16px;
     line-height: 27px;
     text-align: justify;
     
@@ -308,6 +307,7 @@ section ul,li{
     scroll-behavior: smooth;
     height: 300px;
     padding-right: 5%;
+    color: var(--preto);
 }
 
 html ::-webkit-scrollbar {

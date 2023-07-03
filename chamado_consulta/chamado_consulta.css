@@ -4,7 +4,7 @@ label {
 
 .section_titulo {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 50px auto;
     font-family: "SpartanBold";
     color: var(--azule);
@@ -22,8 +22,6 @@ label {
     width: 80%;
     margin: 0 auto;
     /*background-color: aqua;*/
-    display: flex;
-    flex-direction: column;
 }
 
 .icon {
@@ -150,8 +148,8 @@ label {
     display: flex;
     width: 100%;
     align-items: center;
-    margin: 0 auto 20px auto;
     justify-content: space-between;
+    color: var(--preto);
 }
 
 .ou {
@@ -182,20 +180,21 @@ label {
 
 .section_table {
     width: 100%;
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    color: var(--preto);
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
 }
 
 h2 {
     font-size: 20px;
     color: var(--preto);
-    font-family: "VerdanaBold";
-    padding: 50px 0 20px 0;
-}
-
-table {
-    font-family: "Verdana";
-    /* color: #474545;*/
-    display: flex;
-    border-spacing: 0;
+    font-family: "VerdanaRegular";
+    margin: 40px 0 20px;
 }
 
 td {
@@ -205,23 +204,24 @@ td {
 }
 
 .section_table tr {
-    /*background-color: burlywood;*/
-    width: 1000px;
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    color: var(--preto);
+    width: 100%;
 }
 
-.c1 {
-    /*  background-color: darkgoldenrod;*/
-    padding-right: 90px;
+.c1{
+    width: 30%;
 }
 
-.c2 {
-    /* background-color: cornflowerblue;*/
-    padding-right: 285px;
+.c2{
+    width: 60%;
 }
 
-.c3 {
-    /* background-color:aquamarine;*/
-    padding: 10px 10px 10px 20px;
+.c3{
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .tabela_scroll {
@@ -229,6 +229,7 @@ td {
     height: 298px;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    padding-right: 5%;
 }
 
 html ::-webkit-scrollbar {
