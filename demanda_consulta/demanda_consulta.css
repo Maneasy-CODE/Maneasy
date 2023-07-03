@@ -39,7 +39,7 @@ section .conteudo{
 section .cadastrar{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 section .cadastrar h1{

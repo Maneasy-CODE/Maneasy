@@ -31,13 +31,9 @@
     font-family: "SpartanBold";
     color: var(--azule);
     font-size: 30px;
+    gap: 20px;
 
 }
-
-.section_titulo img {
-    padding-right: 20px;
-}
-
 
 /* CONTEUDO*/
 
