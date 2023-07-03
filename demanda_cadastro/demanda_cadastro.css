@@ -354,3 +354,7 @@ select{
 
 }
 
+textarea {
+    resize: none;
+}
+

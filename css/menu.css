@@ -109,3 +109,7 @@ footer iconify-icon {
     font-size: 20px;
     margin-right: 7px;
 }
+
+.nav_btn_menu .btn_logado{
+    background-color: var(--amarelo);
+}

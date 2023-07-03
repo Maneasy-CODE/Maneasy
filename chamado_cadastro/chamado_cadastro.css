@@ -316,3 +316,7 @@ html ::-webkit-scrollbar-track {
 select {
     -webkit-appearance: none;
 }
+
+textarea {
+    resize: none;
+}

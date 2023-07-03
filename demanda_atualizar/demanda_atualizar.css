@@ -365,3 +365,7 @@ select{
     position: relative;
 
 }
+
+textarea {
+    resize: none;
+}

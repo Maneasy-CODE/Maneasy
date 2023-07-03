@@ -289,3 +289,7 @@ select{
 select {
     -webkit-appearance: none;
 }
+
+textarea {
+    resize: none;
+}
