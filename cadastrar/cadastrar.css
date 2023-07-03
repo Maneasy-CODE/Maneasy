@@ -89,7 +89,7 @@ main {
     justify-content: center;
 }
 
-.section_btn_confirmar button {
+.section_btn_confirmar a {
     border-radius: 100px;
     height: 40px;
     border: none;
@@ -101,6 +101,11 @@ main {
     max-width: 250px;
     width: 60%;
     margin-top: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 

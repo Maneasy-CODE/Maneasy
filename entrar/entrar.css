@@ -92,7 +92,7 @@ div:first-child{
 
 
 
-.section_btn_confirmar button {
+.section_btn_confirmar a {
     border-radius: 100px;
     height: 40px;
     border: none;
@@ -104,6 +104,11 @@ div:first-child{
     max-width: 250px;
     width: 60%;
     margin: 40px 0 40px 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 
