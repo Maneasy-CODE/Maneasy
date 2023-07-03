@@ -2,6 +2,7 @@
 /* CLASSE Generica */
 section .container-grid{
     width: 100%;
+    height: 100%;
     border-radius: 40px 0 0 40px;
     padding-top: 50px;
     padding-bottom: 70px;
