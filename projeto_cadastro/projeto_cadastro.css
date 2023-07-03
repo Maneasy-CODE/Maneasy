@@ -111,7 +111,7 @@ h1{
 
 .icon {
     position: absolute;
-    padding: 11px 20px 7.5px 10px;
+    padding: 12.5px 20px 7.5px 10px;
     align-items: center;
     color: #474545;
     min-width: 40px;
@@ -241,6 +241,9 @@ select{
     border-radius: 40px;
     border: 1px solid #474545;
     background: transparent;
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+
 }
 
 .icon_start{
@@ -281,6 +284,9 @@ select{
     font-family: "SpartanBold";
     color: var(--azule);
     font-size: 30px;
+}
 
+select {
+    -webkit-appearance: none;
 }
 
