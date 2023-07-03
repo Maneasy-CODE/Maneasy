@@ -325,3 +325,7 @@ html ::-webkit-scrollbar-thumb {
 html ::-webkit-scrollbar-track {
     background: #ededed;
 }
+
+select {
+    -webkit-appearance: none;
+}

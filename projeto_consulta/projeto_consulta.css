@@ -1,7 +1,7 @@
 /* CLASSES GENERICAS */
 .icon {
     position: absolute;
-    padding: 10.5px 20px 7.5px 10px;
+    padding: 11.5px 20px 7.5px 10px;
     align-items: center;
     color: #474545;
     min-width: 40px;
@@ -322,3 +322,8 @@ html ::-webkit-scrollbar-thumb {
 html ::-webkit-scrollbar-track {
     background: #ededed;
 }
+
+select {
+    -webkit-appearance: none;
+}
+
