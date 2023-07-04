@@ -324,7 +324,7 @@ section .footer-options {
 
 section .footer-options>div {
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 
 section .footer-options img {
