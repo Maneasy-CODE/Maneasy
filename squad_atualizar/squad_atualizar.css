@@ -122,3 +122,25 @@ input .input-field {
     display: flex;
     justify-content: flex-end;
 }
+
+html ::-webkit-scrollbar {
+    width: 6px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+}
+
+.lista_consultas {
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    color: var(--preto);
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 300px;
+    padding-right: 5%;
+
+
+}
