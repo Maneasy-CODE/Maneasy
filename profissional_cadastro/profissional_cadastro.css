@@ -154,7 +154,7 @@ label {
 
 .posicao_conteudo {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     margin-bottom: 20px;
 }
@@ -211,8 +211,12 @@ label {
 .btn_conf_e_canc{
     border: none;
     background: none;
-    margin-left: 15px;
-    padding-top: 27px;
+}
+
+.btn_conf{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
 }
 
 ::-webkit-calendar-picker-indicator {

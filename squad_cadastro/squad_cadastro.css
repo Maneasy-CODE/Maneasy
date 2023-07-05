@@ -97,7 +97,10 @@ form {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 0 0px 0;
+}
+
+.espacamento{
+    margin-top: 30px;
 }
 
 /* Resultado pesquisa*/
@@ -136,9 +139,7 @@ form {
     justify-content: flex-end;
 }
 
-
-
-_________________________________________________________________________ .form_date_criacao {
+.form_date_criacao {
     width: 30%;
 }
 
@@ -162,7 +163,7 @@ input[type="date"] {
 }
 
 
----------------------------------------- .section_objetivo_projeto {
+.section_objetivo_projeto {
     display: flex;
     align-items: center;
     justify-content: space-between;

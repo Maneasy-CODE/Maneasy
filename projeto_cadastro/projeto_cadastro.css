@@ -269,8 +269,12 @@ select{
 .btn_links button{
     border: none;
     background: transparent;
-    margin: 0 4px;
-    }
+}
+
+.btn_links{
+    display: flex;
+    gap: 10px;
+}
 
 .fundo_amarelo {
     background-color: var(--amarelo);

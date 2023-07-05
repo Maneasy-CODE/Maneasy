@@ -162,7 +162,7 @@ label {
 .btn_conf{
 display: flex;
 align-items: flex-end;
-gap: 5px;
+gap: 10px;
 }
 
 .btn_conf>a>img{
